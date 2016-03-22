@@ -1,0 +1,60 @@
+{
+    "title": "AdaJS by BarcelonaJS",
+    "menuEvents": "Events",
+    "menuAboutUs": "About us",
+    "menuContact": "Contact",
+    "introPart1": "AdaJS is a group of women who meet periodically in Barcelona.",
+    "introPart2": "Our goal is to share our experience and knowledge of JavaScript and the web in general. We aim to transmit our passion for technology.",
+    "introPart3": "There is no prerequisite to become a member of this group. All you need is to be willing to participate.",
+    "titleContact": "Contact us",
+    "contactText": "If you have any comments, requests or proposals, don't hesitate to get in touch with us by email:",
+    "aboutFounders": "Founding members",
+    "aboutCurrent": "Active members",
+    "titleUpcoming": "Upcoming events",
+    "titleSocial": "Social networks",
+    "titleBelongs": "AdaJS is part of",
+    "titleComingSoon": "Coming soon",
+    "joinMeetup": "Join our Meetup",
+    "titleEventDesc": "Event description",
+    "events": [
+        {
+            "id": "ladiesjs",
+            "title": "LadiesJS: Introduction to Javascript",
+            "desc": "",
+            "completed": true,
+            "links": []       
+        },
+        {
+            "id": "jsforbeginners",
+            "title": "Workshop: JavaScript for beginners",
+            "desc": "Did you know that the first programmer was a woman? (Ada Lovelace, our \"patron\"). Did you know that the European Commission have announced that Europe will be facing a shortfall of 900,000 IT professionals by the year 2020? Are you keen on internet and technology? You'd like to know programming but think it's very difficult? Not at all! This will be a 3-hour hands-on workshop during which we'll help you learn, by yourself and at your own pace, the basics of programming with today's trendiest language: JavaScript.",
+            "completed": true,
+            "links": [
+                {
+                    "name": "Meetup",
+                    "url": "http://www.meetup.com/es-ES/AdaBcnJS/events/226823609/"
+                },
+                {
+                    "name": "ti.to",
+                    "url": "https://ti.to/adajs-bcn/javascript-101"
+                }
+            ]
+        },
+        {
+            "id": "webdevpart1",
+            "title": "Workshop: Web development (HTML+JavaScript+jQuery), Part I",
+            "desc": "In our first workshop we did an introduction to today's trendiest programming language: JavaScript. Did you know that JavaScript is also the programming language of the web? In this workshop we'll learn the basics of HTML, what's the DOM, and how we can interact with it thanks to JavaScript. We'll also do an introduction to jQuery, a JavaScript library created in 2006 that's changed web programming forever. Do you want to create your first web application, and get a taste of what you'll be capable of with JavaScript? Don't miss it!",
+            "completed": false,
+            "links": [
+                {
+                    "name": "Meetup",
+                    "url": "http://www.meetup.com/es-ES/AdaBcnJS/events/229363514/"
+                },
+                {
+                    "name": "ti.to",
+                    "url": "https://ti.to/adajs-bcn/workshop-web-development-html-javascript-jquery-part-i"
+                }
+            ]
+        }
+    ]
+}

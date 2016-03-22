@@ -1,0 +1,23 @@
+{
+    "ladiesjs": {
+        "cover": "img/events/ladiesjs/ladiesjs1.jpg",
+        "pics": [
+            { "url": "img/events/ladiesjs/ladiesjs1.jpg", "cssClass": "col-sm-4" },
+            { "url": "img/events/ladiesjs/ladiesjs2.jpg", "cssClass": "col-sm-4" },
+            { "url": "img/events/ladiesjs/ladiesjs3.jpg", "cssClass": "col-sm-4" }
+        ]
+    },
+    "jsforbeginners": {
+        "cover": "img/events/js-for-beginners/js-for-beginners2.jpg",
+        "pics": [
+            { "url": "img/events/js-for-beginners/js-for-beginners1.jpg", "cssClass": "col-sm-12" },
+            { "url": "img/events/js-for-beginners/js-for-beginners2.jpg", "cssClass": "col-sm-6" },
+            { "url": "img/events/js-for-beginners/js-for-beginners3.jpg", "cssClass": "col-sm-6" },
+            { "url": "img/events/js-for-beginners/js-for-beginners4.jpg", "cssClass": "col-sm-12" }
+        ]
+    },
+    "webdevpart1": {
+        "cover": "",
+        "pics": []
+    }
+}
