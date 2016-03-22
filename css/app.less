@@ -1,0 +1,119 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Paytone One","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.gallery, .navbar-nav{
+    a{
+        img{
+            &:hover,
+            &:focus,
+            &:active{
+                cursor: pointer;
+                box-shadow: 0 0 10px 3px #18bc9c;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+
+@media(min-width:768px) {
+    header{
+        .container{
+            padding-top: 150px;
+        }
+    }
+
+    .navbar-fixed-top{
+        padding: 10px 0;
+    }
+}
+
+header{
+    .intro-text{
+        .name{
+            font-family: "Paytone One","Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+    }
+}
+
+.capitalize{
+    text-transform: capitalize !important;
+}
+
+.navbar {
+    font-family: "Paytone One","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-default{
+    .navbar-nav{
+        .active{
+            a{
+                border-radius: 10px;
+                &:hover,
+                &:focus{
+                    border-radius: 10px;
+                }
+            }            
+        }
+        .change-lang{
+            a{
+                background-color: transparent;
+                &:hover,
+                &:focus{
+                    background-color: transparent;
+                }
+                img{
+                    width: 28px;
+                    &:hover,
+                    &:focus,
+                    &:active{
+                        border-radius: 100px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#about{
+    .portfolio-link{
+        img{
+            width: 100px;
+        }
+    }
+}
+
+.event-title{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.bcnjs img, .meetup-logo{
+    width: 40%;
+}
+
+.coming-soon{
+    font-family: "Special Elite", cursive;
+    font-size: 36px;
+    font-weight: bold;
+    color: crimson;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+    padding: 5px 10px 0 10px;
+    border: 2px dashed crimson;
+    pointer-events: none;
+}
+
+.justify{
+    text-align: justify;
+}
