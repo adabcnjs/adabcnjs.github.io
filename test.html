@@ -17,189 +17,246 @@
         body {
             font-size: 24px;
         }
-        
+        .container {
+            padding-top: 20px !important;
+        }
+        .form{
+            text-align: left;
+        }
+        input {
+            color: black;
+            padding: 0 10px;
+        }
         header .intro-text .name {
             font-size: 3em;
             font-weight: 300;
             text-transform: none;
+        }
+        header .intro-text .name span {
+            display: inline-block;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <div style="padding-top: 40px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 form">
+                    <label class="lato">Cambia el nombre:</label>
+                    <input type="text" data-bind="value: name" />
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="intro-text">
+                            <span class="lato">Lato</span>
+                            <p class="name lato">
+                                <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                            </p>
+                            <hr class="star-light">
+                            <p class="lato">
+                                El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-text">
-                        <span class="lato">Lato</span>
-                        <span class="name lato">Ada<strong>JS</strong></span>
+                        <span class="signika">Signika</span>
+                        <p class="name signika">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
                         <hr class="star-light">
-                        <p class="lato">
+                        <p class="signika">
+                            El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="ubuntu">Ubuntu</span>
+                        <p class="name ubuntu">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
+                        <hr class="star-light">
+                        <p class="ubuntu">
+                            El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="quicksand">Quicksand</span>
+                        <p class="name quicksand">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
+                        <hr class="star-light">
+                        <p class="quicksand">
+                            El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="mavenpro">Maven Pro</span>
+                        <p class="name mavenpro">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
+                        <hr class="star-light">
+                        <p class="mavenpro">
+                            El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="nunito">Nunito</span>
+                        <p class="name nunito">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
+                        <hr class="star-light">
+                        <p class="nunito">
+                            El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="comfortaa">Comfortaa</span>
+                        <p class="name comfortaa">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
+                        <hr class="star-light">
+                        <p class="comfortaa">
+                            El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="yanone">Yanone Kaffeesatz</span>
+                        <p class="name yanone">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
+                        <hr class="star-light">
+                        <p class="yanone">
+                            El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="josefin">Josefin Slab</span>
+                        <p class="name josefin">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
+                        <hr class="star-light">
+                        <p class="josefin">
+                            El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="kreon">Kreon</span>
+                        <p class="name kreon">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
+                        <hr class="star-light">
+                        <p class="kreon">
+                            El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="overlock">Overlock</span>
+                        <p class="name overlock">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
+                        <hr class="star-light">
+                        <p class="overlock">
+                            El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="corben">Corben</span>
+                        <p class="name corben">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
+                        <hr class="star-light">
+                        <p class="corben">
+                            El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="coustard">Coustard</span>
+                        <p class="name coustard">
+                            <span data-bind="text: name">Ada</span><span><strong>JS</strong></span>
+                        </p>
+                        <hr class="star-light">
+                        <p class="coustard">
                             El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="signika">Signika</span>
-                    <span class="name signika">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="signika">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="ubuntu">Ubuntu</span>
-                    <span class="name ubuntu">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="ubuntu">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="quicksand">Quicksand</span>
-                    <span class="name quicksand">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="quicksand">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="mavenpro">Maven Pro</span>
-                    <span class="name mavenpro">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="mavenpro">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="nunito">Nunito</span>
-                    <span class="name nunito">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="nunito">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="comfortaa">Comfortaa</span>
-                    <span class="name comfortaa">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="comfortaa">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="yanone">Yanone Kaffeesatz</span>
-                    <span class="name yanone">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="yanone">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="josefin">Josefin Slab</span>
-                    <span class="name josefin">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="josefin">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="kreon">Kreon</span>
-                    <span class="name kreon">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="kreon">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="overlock">Overlock</span>
-                    <span class="name overlock">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="overlock">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="corben">Corben</span>
-                    <span class="name corben">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="corben">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="coustard">Coustard</span>
-                    <span class="name coustard">Ada<strong>JS</strong></span>
-                    <hr class="star-light">
-                    <p class="coustard">
-                        El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
-                    </p>
-                </div>
-            </div>
-        </div>
     </header>
 </body>
+<!-- Knockout -->
+<script type="text/javascript" src="js/knockout-3.4.0.min.js"></script>
+<script type="text/javascript">
+    function testViewModel() {
+        this.name = ko.observable("ada");
+    }
+    
+    // Activates knockout.js
+    ko.applyBindings(new testViewModel());
+
+</script>
 
 </html>

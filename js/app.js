@@ -1,6 +1,6 @@
 "use strict";
 
-function webViewModel() {
+function appViewModel() {
     var self = this;
     
     this.year = new Date().getFullYear();
@@ -60,4 +60,4 @@ function webViewModel() {
 }
 
 // Activates knockout.js
-ko.applyBindings(new webViewModel());
+ko.applyBindings(new appViewModel());
