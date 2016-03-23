@@ -1,431 +1,327 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="JavaScript Women Barcelona, powered by BarcelonaJS">
-        <meta name="author" content="Isabel Cabezas Martín @isabelcabezasm">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="JavaScript Women Barcelona, powered by BarcelonaJS">
+    <meta name="author" content="Isabel Cabezas Martín @isabelcabezasm">
 
-        <title>AdaJS by BarcelonaJS</title>
+    <title>AdaJS by BarcelonaJS</title>
 
-        <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Custom CSS -->
-        <link href="css/freelancer.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
 
-        <!-- Custom Fonts -->
-        <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-              <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-              <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-          <![endif]-->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    </head>
+</head>
 
-    <body id="page-top" class="index">
+<body id="page-top" class="index">
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#page-top">AdaJS</a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#portfolio">Eventos</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#about">Sobre nosotras</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#contact">Contacto</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="en/index.html"><img class="img-responsive" src="img/eng.png" /></a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="ca/index.html"><img class="img-responsive" src="img/cat.png" /></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand capitalize" href="#page-top">AdaJS</a>
             </div>
-            <!-- /.container-fluid -->
-        </nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio" data-bind="text: res().menuEvents"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about" data-bind="text: res().menuAboutUs"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact" data-bind="text: res().menuContact"></a>
+                    </li>
+                    <li class="change-lang">
+                        <a href="#" data-bind="click: function () { changeLang('es'); }">
+                            <img class="img-responsive" src="img/cas.png" />
+                        </a>
+                    </li>
+                    <li class="change-lang">
+                        <a href="#" data-bind="click: function () { changeLang('ca'); }">
+                            <img class="img-responsive" src="img/cat.png" />
+                        </a>
+                    </li>
+                    <li class="change-lang">
+                        <a href="#" data-bind="click: function () { changeLang('en'); }">
+                            <img class="img-responsive" src="img/eng.png" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-        <!-- Header -->
-        <header>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name capitalize">AdaJS</span>
+                        <hr class="star-light">
+                        <span class="skills">JavaScript - Women - Barcelona</span>
+                        <br />
+                        <br />
+                        <br />
+                        <p data-bind="text: res().introPart1"></p>
+                        <p data-bind="text: res().introPart2"></p>
+                        <p data-bind="text: res().introPart3"></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 data-bind="text: res().menuEvents"></h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row" data-bind="foreach: { data: res().events, as: 'event' }">
+                <div class="col-sm-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal"
+                       data-bind="attr: { 'href': '#' + event.id }">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>                        
+                        <img class="img-responsive img-thumbnail" 
+                             data-bind="attr: { 'src': $parent.getEventCover(event.id), 'alt': event.title }">
+                        <!-- ko if: !event.completed -->
+                        <div class="coming-soon" data-bind="text: $parent.res().titleComingSoon"></div>
+                        <!-- /ko -->                        
+                    </a>
+                    <div class="col-sm-12 text-center event-title">
+                        <span data-bind="text: event.title"></span>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 data-bind="text: res().menuAboutUs"></h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3 data-bind="text: res().aboutCurrent"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-2 text-center">
+                    <a href="https://twitter.com/elegarpes" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <img src="img/members/elena.jpg" class="img-responsive img-circle img-centered" alt="Alina Mierluș">
+                    </a>
+                    <div class="col-sm-12 text-center">
+                        Elena García
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2 text-center">
+                    <a href="https://twitter.com/tsuna__mi" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <img src="img/members/ana.jpg" class="img-responsive img-circle img-centered" alt="Isabel Cabezas">
+                    </a>
+                    <div class="col-sm-12 text-center">
+                        Ana Gamito
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2 text-center">
+                    <a href="https://twitter.com/pchiwan" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <img src="img/members/silvia.jpg" class="img-responsive img-circle img-centered" alt="Laura Ribes">
+                    </a>
+                    <div class="col-sm-12 text-center">
+                        Sílvia Mur
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3 data-bind="text: res().aboutFounders"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-2 text-center">
+                    <a href="https://twitter.com/alina_mierlus" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <img src="img/members/alina.jpg" class="img-responsive img-circle img-centered" alt="Alina Mierluș">
+                    </a>
+                    <div class="col-sm-12 text-center">
+                        Alina Mierluș
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2 text-center">
+                    <a href="https://twitter.com/isabelcabezasm" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <img src="img/members/isabel.jpg" class="img-responsive img-circle img-centered" alt="Isabel Cabezas">
+                    </a>
+                    <div class="col-sm-12 text-center">
+                        Isabel Cabezas
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2 text-center">
+                    <a href="https://twitter.com/laMosqui" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <img src="img/members/laura.jpg" class="img-responsive img-circle img-centered" alt="Laura Ribes">
+                    </a>
+                    <div class="col-sm-12 text-center">
+                        Laura Ribes
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 data-bind="text: res().titleContact"></h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div id="mc_embed_signup" class="col-lg-8 col-lg-offset-2">
+                    <p>
+                        <span data-bind="text: res().contactText"></span>&nbsp;
+                        <a href="mailto:ada@barcelonajs.org">ada@barcelonajs.org</a>.</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3> 
+                            <span class="capitalize">AdaJS</span>&nbsp;
+                            <span data-bind="text: res().titleBelongs"></span>
+                        </h3>
+                        <p class="bcnjs">
+                            <a href="http://barcelonajs.org/" target="_blank">
+                                <img src="img/barcelonajs_logo.png" alt="BarcelonaJS">
+                            </a>
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3 data-bind="text: res().titleSocial"></h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="http://twitter.com/adaBcnJS" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/adabcnJS" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>
+                            <span data-bind="text: res().joinMeetup"></span>
+                            <br/><br/>
+                            <a href="http://www.meetup.com/AdaBcnJS/?_locale=es-ES" target="_blank">
+                                <img class="meetup-logo" src="img/meetup_logo.png" alt="Meetup"/>
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <img class="img-responsive" src="img/profile.png" alt="">
-                        <div class="intro-text">
-                            <span class="name">AdaJS</span>
-                            <hr class="star-light">
-                            <span class="skills">JavaScript - Women - Barcelona</span>
-                            <br /><br /><br />
-                            <p>AdaJS es un grupo de mujeres, que se reúnen periódicamente en Barcelona.</p>
-                            <p>Nuestra misión es compatir nuestra experiencia y conocimiento sobre JavaScript o el mundo web en general. Intentamos transmitir nuestra pasión por la tecnología.</p>
-                            <p>No necesitas ningún tipo de prerrequisito para entrar a formar parte de este grupo, tan sólo ganas de participar.</p>
-
-                        </div>
+                        Copyright &copy; AdaJS <span data-bind="text: year"></span>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </footer>
 
-        <!-- Portfolio Grid Section -->
-        <section id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>Eventos</h2>
-                        <hr class="star-primary">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#ladiesjs" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/eventos/ladiesjs/ladiejs1.jpg" class="img-responsive img-thumbnail" alt="">
-                        </a>
-                        <div class="col-sm-12 text-center">
-                            LadiesJS: Introducción a Javascript
+    <!-- Portfolio Modals: dynamically constructed -->
+    <div data-bind="foreach: { data: res().events, as: 'event' }">
+        <div class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-bind="attr: { 'id': event.id }">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
                         </div>
                     </div>
-                    <!--<div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/cake.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/circus.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/game.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                        </a>
-                    </div>-->
                 </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section class="success" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>Sobre nosotras</h2>
-                        <hr class="star-light">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-2 col-sm-offset-2">
-                        <a href="#aboutus_alina" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="http://www.similis.cc/_include/img/profile/profile-01.jpg" class="img-responsive img-circle" alt="Alina Mierluș">
-                        </a>
-                        <div class="col-sm-12 text-center">
-                            <span>Alina Mierluș</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-1"></div>
-                    <div class="col-sm-2">
-                        <a href="#nosotras_isabel" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="https://media.licdn.com/media/p/3/005/086/11e/0947806.jpg" class="img-responsive img-circle" alt="Isabel Cabezas">
-                        </a>
-                        <div class="col-sm-12 text-center">
-                            Isabel Cabezas
-                        </div>
-                    </div>
-                    <div class="col-sm-1"></div>
-                    <div class="col-sm-2">
-                        <a href="#nosotras_laura" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="https://media.licdn.com/media/p/8/000/1c6/2b0/238daea.jpg" class="img-responsive img-circle" alt="Laura Ribes">
-                        </a>
-                        <div class="col-sm-12 text-center">
-                            Laura Ribes
-                        </div>
-                    </div>
-
-                    <!--<div class="col-lg-4 col-lg-offset-2">
-                      <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                    </div>
-                    <div class="col-lg-4">
-                      <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <a href="#" class="btn btn-lg btn-outline">
-                                    <i class="fa fa-download"></i> Download Theme
-                                </a>
-                            </div>-->
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>Contacta con nosotras</h2>
-                        <hr class="star-primary">
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="mc_embed_signup" class="col-lg-8 col-lg-offset-2">
-                        <p>Si tienes algún comentario, petición o propuesta, no dudes en ponerte en contacto con nosotras en el email: <a href="mailto:isabel@barcelonajs.org">isabel@barcelonajs.org</a>.<br />O rellenando el siguiente formulario:</p>
-                        <div class="indicates-required"><span class="asterisk">*</span> indica <i>campo requerido</i></div>
-                        <!-- Change the width and height values to suit you best -->
-                        <div class="typeform-widget" data-url="https://isabelcabezasm.typeform.com/to/XjbM6s" data-text="ada_form_es" style="width:100%;height:500px;"></div>
-                        <script>(function() {
-                                var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = 'typef_orm', b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
-                                if (!gi.call(d, id)) {
-                                    js = ce.call(d, 'script');
-                                    js.id = id;
-                                    js.src = b + 'widget.js';
-                                    q = gt.call(d, 'script')[0];
-                                    q.parentNode.insertBefore(js, q)
-                                }
-                            })()</script>
-                        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_XjbM6s&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=Español" style="color: #999" target="_blank">Typeform<a/></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="text-center">
-            <div class="footer-above">
                 <div class="container">
                     <div class="row">
-                        <div class="footer-col col-md-4">
-                            <h3>Próximo evento</h3>
-                            <p><a href="http://barcelonajs.org/">Barcelona JS</a></p>
-                            <p>Después del evento del BarcelonaJS (aprox 19:30) haremos una pequeña sesión tipo "brainstorming" donde pondremos en común ideas sobre el grupo y haremos un intento de planificación para el primer trimestre de 2015.</p>
-                            <p>Dirección: Mobile World Centre, C/ de Fontanella, 2 in Barcelona.</p>
-                        </div>
-                        <div class="footer-col col-md-4">
-                            <h3>Redes Sociales</h3>
-                            <ul class="list-inline">
-                                <!--<li>
-                                                  <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                                              </li>
-                                              <li>
-                                                  <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                                              </li>-->
-                                <li>
-                                    <a href="http://twitter.com/adaBcnJS" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                                </li>
-                                <!--<li>
-                                                  <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                                              </li>
-                                              <li>
-                                                  <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                                              </li>-->
-                            </ul>
-                        </div>
-                        <div class="footer-col col-md-4">
-                            <h3>Apuntate a nuestro newsletter</h3>
-                            <form name="subscribe" id="contactForm" action="//barcelonajs.us7.list-manage.com/subscribe/post?u=208acbe299e4546647e398502&amp;id=fda43d7737" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                                <div class="row control-group">
-                                    <div class="form-group col-xs-12 floating-label-form-group controls">
-                                        <label>Dirección Email</label>
-                                        <input class="form-control" placeholder="* Dirección Email" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
-                                        <p class="help-block text-danger"></p>
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <div class="modal-body">
+                                <h2 data-bind="text: event.title"></h2>
+                                <hr class="star-primary">
+                                <div class="col-sm-12">
+                                    <h4 data-bind="text: $parent.res().titleEventDesc"></h4>
+                                    <p class="justify" data-bind="text: event.desc"></p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <ul class="list-inline item-details" data-bind="foreach: { data: $parent.getEventLinks(event.id), as: 'link' }">
+                                        <li>
+                                            <strong>
+                                            <a data-bind="attr: { 'href': link.url }, text: link.name" target="_blank"></a>
+                                        </strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="row gallery" data-bind="foreach: { data: $parent.getEventPics(event.id), as: 'img' }">
+                                    <div data-bind="attr: { 'class': img.cssClass }">
+                                        <a data-bind="attr: { 'href': img.url }" target="_blank">
+                                            <img data-bind="attr: { 'src': img.url, 'alt': event.title }" class="img-responsive img-thumbnail">
+                                        </a>
+                                        <br/>
                                     </div>
                                 </div>
-                                <div class="clear">
-                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-lg">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-below">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            Copyright &copy; AdaJS 2014
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-        <div class="scroll-top page-scroll visible-xs visble-sm">
-            <a class="btn btn-primary" href="#page-top">
-                <i class="fa fa-chevron-up"></i>
-            </a>
-        </div>
-
-        <!-- About us Modals -->
-        <div class="portfolio-modal modal fade" id="aboutus_alina" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Alina Mierluș</h2>
-                                <hr class="star-primary">
-                                <div class="col-sm-6">
-                                    <img src="http://www.similis.cc/_include/img/profile/profile-01.jpg" class="img-responsive img-circle" alt="Alina Mierluș">
-                                </div>
-                                <div class="col-sm-6">
-                                    <p>On this blog I expose my experience and vision on technology, “the social” and the world of computers. Sometimes, articles may be about personal stuff and the work I’m doing through similis.cc</p>
-                                    <p>I also write in 140 characters here.</p>
-                                </div>
-                                <div class="col-sm-12">
-                                    <ul class="list-inline item-details">
-                                        <li>
-                                            <strong>
-                                                <a href="https://twitter.com/alina_mierlus" target="_blank">
-                                                    <i class="fa fa-fw fa-twitter"></i> @alina_mierlus
-                                                </a>
-                                            </strong>
-                                        </li>
-                                        <!--<li>Date:
-                                            <strong><a href="http://startbootstrap.com">April 2014</a>
-                                            </strong>
-                                        </li>
-                                        <li>Service:
-                                            <strong><a href="http://startbootstrap.com">Web Development</a>
-                                            </strong>
-                                        </li>-->
-                                    </ul>
-                                </div>
-                                <div class="col-sm-12">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><div class="portfolio-modal modal fade" id="nosotras_isabel" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Isabel Cabezas</h2>
-                                <hr class="star-primary">
-                                <div class="col-sm-6">
-                                    <img src="https://media.licdn.com/media/p/3/005/086/11e/0947806.jpg" class="img-responsive img-circle" alt="Alina Mierluș">
-                                </div>
-                                <div class="col-sm-6 text-left">
-                                    <p>Desarrolladora front-end del el dpto. de SharePoint de @pasiona.</p><p>Divulgadora tecnológica en @techdencias y colaboradora en @bcnjs, @adaBcnJS y @catdotnet.<br />Microsoft MVP.</p>
-                                </div>
-                                <div class="col-sm-12">
-                                    <ul class="list-inline item-details">
-                                        <li>
-                                            <strong>
-                                                <a href="https://twitter.com/isabelcabezasm" target="_blank">
-                                                    <i class="fa fa-fw fa-twitter"></i> @isabelcabezasm
-                                                </a>
-                                            </strong>
-                                        </li>
-                                        <!--<li>Date:
-                                            <strong><a href="http://startbootstrap.com">April 2014</a>
-                                            </strong>
-                                        </li>
-                                        <li>Service:
-                                            <strong><a href="http://startbootstrap.com">Web Development</a>
-                                            </strong>
-                                        </li>-->
-                                    </ul>
-                                </div>
                                 <div class="col-sm-12">
                                     <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                                 </div>
@@ -435,310 +331,26 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio-modal modal fade" id="nosotras_laura" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Laura Ribes</h2>
-                                <hr class="star-primary">
-                                <div class="col-sm-6">
-                                    <img src="https://media.licdn.com/media/p/8/000/1c6/2b0/238daea.jpg" class="img-responsive img-circle" alt="Alina Mierluș">
-                                </div>
-                                <div class="col-sm-6">
-                                    <p>I'm a Web Designer & Front End Developer specialized in the latest W3C web standards, usability, accessibility and cross-browser compatibility. Graphics creative with Photoshop and Flash. Good understanding of PHP and ASP.</p>
-                                </div>
-                                <div class="col-sm-12">
-                                    <ul class="list-inline item-details">
-                                        <li>
-                                            <strong>
-                                                <a href="https://twitter.com/laMosqui" target="_blank">
-                                                    <i class="fa fa-fw fa-twitter"></i> @laMosqui
-                                                </a>
-                                            </strong>
-                                        </li>
-                                        <!--<li>Date:
-                                            <strong><a href="http://startbootstrap.com">April 2014</a>
-                                            </strong>
-                                        </li>
-                                        <li>Service:
-                                            <strong><a href="http://startbootstrap.com">Web Development</a>
-                                            </strong>
-                                        </li>-->
-                                    </ul>
-                                </div>
-                                <div class="col-sm-12">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modals -->
-        <div class="portfolio-modal modal fade" id="ladiesjs" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Ladies JS</h2>
-                                <hr class="star-primary">
-                                <div class="col-sm-6">
-                                    <img src="img/eventos/ladiesjs/ladiejs1.jpg" class="img-responsive img-thumbnail" alt="Ladies JS"><br />
-                                    <img src="img/eventos/ladiesjs/ladiejs2.jpg" class="img-responsive img-thumbnail" alt="Ladies JS"><br />
-                                    <img src="img/eventos/ladiesjs/ladiejs3.jpg" class="img-responsive img-thumbnail" alt="Ladies JS">
-                                </div>
-                                <div class="col-sm-6">
-                                    <p>Descripción del Ladies JS</p>
-                                </div>
-                                <div class="col-sm-12">
-                                    <ul class="list-inline item-details">
-                                        <li>
-                                            <strong>
-                                                <a href="http://ladies.barcelonajs.org/" target="_blank">
-                                                    <i class="fa fa-at"></i> @LadiesJS
-                                                </a>
-                                            </strong>
-                                        </li>
-                                        <!--<li>Date:
-                                            <strong><a href="http://startbootstrap.com">April 2014</a>
-                                            </strong>
-                                        </li>
-                                        <li>Service:
-                                            <strong><a href="http://startbootstrap.com">Web Development</a>
-                                            </strong>
-                                        </li>-->
-                                    </ul>
-                                </div>
-                                <div class="col-sm-12">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Project Title</h2>
-                                <hr class="star-primary">
-                                <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase
-                                    the entire set with 146 icons for only $12!</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">April 2014</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Project Title</h2>
-                                <hr class="star-primary">
-                                <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase
-                                    the entire set with 146 icons for only $12!</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">April 2014</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Project Title</h2>
-                                <hr class="star-primary">
-                                <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase
-                                    the entire set with 146 icons for only $12!</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">April 2014</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Project Title</h2>
-                                <hr class="star-primary">
-                                <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase
-                                    the entire set with 146 icons for only $12!</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">April 2014</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Project Title</h2>
-                                <hr class="star-primary">
-                                <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase
-                                    the entire set with 146 icons for only $12!</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">April 2014</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
 
-        <!-- jQuery Version 1.11.0 -->
-        <script src="js/jquery-1.11.0.js"></script>
+    <!-- jQuery Version 2.2.2 -->
+    <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-        <!-- Plugin JavaScript -->
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="js/classie.js"></script>
-        <script src="js/cbpAnimatedHeader.js"></script>
+    <!-- Knockout -->
+    <script type="text/javascript" src="js/knockout-3.4.0.min.js"></script>
 
-        <!-- Custom Theme JavaScript -->
-        <script src="js/freelancer.js"></script>
-        <script src="js/contact.js"></script>
-    </body>
+    <!-- Plugin JavaScript -->
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script type="text/javascript" src="js/freelancer.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+
+    <!-- Our own stuff -->
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
 
 </html>
