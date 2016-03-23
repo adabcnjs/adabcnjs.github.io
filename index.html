@@ -306,10 +306,10 @@
                                     <p class="justify" data-bind="text: event.desc"></p>
                                 </div>
                                 <div class="col-sm-12">
-                                    <ul class="list-inline item-details" data-bind="foreach: event.links">
+                                    <ul class="list-inline item-details" data-bind="foreach: { data: $parent.getEventLinks(event.id), as: 'link' }">
                                         <li>
                                             <strong>
-                                            <a data-bind="attr: { 'href': url }, text: name" target="_blank"></a>
+                                            <a data-bind="attr: { 'href': link.url }, text: link.name" target="_blank"></a>
                                         </strong>
                                         </li>
                                     </ul>

@@ -21,40 +21,19 @@
             "id": "ladiesjs",
             "title": "LadiesJS: Introducció al Javascript",
             "desc": "",
-            "completed": true,
-            "links": []
+            "completed": true
         },
         {
             "id": "jsforbeginners",
             "title": "Workshop: JavaScript per a principiants",
             "desc": "Sabies que el primer programador fou una dona? (Ada Lovelace, la nostra \"patrona\"). Sabies que la UE preveu que en 5 anys es creïn 900.000 llocs de treball relacionats amb les TIC? T'atreuen internet i la tecnologia? T'agradaria saber programar però creus que és molt difícil? En absolut! Aquest serà un taller pràctic de 3 hores en el qual t'ajudarem a aprendre, per tu mateixa i al teu ritme, els principis de la programació amb el llenguatge de moda: JavaScript.",
-            "completed": true,
-            "links": [
-                {
-                    "name": "Meetup",
-                    "url": "http://www.meetup.com/es-ES/AdaBcnJS/events/226823609/"
-                },
-                {
-                    "name": "ti.to",
-                    "url": "https://ti.to/adajs-bcn/javascript-101"
-                }
-            ]
+            "completed": true
         },
         {
             "id": "webdevpart1",
             "title": "Workshop: Programació web (HTML+JavaScript+jQuery), Part I",
             "desc": "En el nostre primer workshop varem fer una introducció al llenguatge de programació de moda: JavaScript. Sabies que a més JavaScript és el llenguatge de programació de la web? En aquest taller aprendrem les bases d'HTML, què és el DOM, i cóm podem interactuar amb el mateix gràcies a JavaScript. També farem una introducció a jQuery, una llibreria de JavaScript creada al 2006 que ha canviat per sempre la programació web. Vols crear la teva primera aplicació web, i veure de quines altres coses pot ser capaç amb JavaScript? No t'ho perdis!",
-            "completed": false,
-            "links": [
-                {
-                    "name": "Meetup",
-                    "url": "http://www.meetup.com/es-ES/AdaBcnJS/events/229363514/"
-                },
-                {
-                    "name": "ti.to",
-                    "url": "https://ti.to/adajs-bcn/workshop-web-development-html-javascript-jquery-part-i"
-                }
-            ]
+            "completed": false
         }
     ]
 }
