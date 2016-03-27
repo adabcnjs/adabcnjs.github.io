@@ -4,7 +4,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Paytone One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Cabin Sketch";
+  text-transform: none;
+}
+body {
+  font-family: Lato;
 }
 .gallery a img:hover,
 .navbar-nav a img:hover,
@@ -24,14 +28,20 @@ h6 {
     padding: 10px 0;
   }
 }
-header .intro-text .name {
-  font-family: "Paytone One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.ada {
+  font-family: Comfortaa!important;
+  text-transform: lowercase!important;
+  font-weight: 300!important;
 }
-.capitalize {
-  text-transform: capitalize !important;
+.ada strong {
+  text-transform: uppercase!important;
+  font-weight: 700!important;
+}
+.ada-intro {
+  font-size: 30px;
 }
 .navbar {
-  font-family: "Paytone One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Lato;
 }
 .navbar-default .navbar-nav .active a {
   border-radius: 10px;
@@ -42,6 +52,7 @@ header .intro-text .name {
 }
 .navbar-default .navbar-nav .change-lang a {
   background-color: transparent;
+  padding-left: 5px;
 }
 .navbar-default .navbar-nav .change-lang a:hover,
 .navbar-default .navbar-nav .change-lang a:focus {
@@ -62,9 +73,11 @@ header .intro-text .name {
   font-weight: bold;
   margin-top: 10px;
 }
-.bcnjs img,
+.bcnjs img {
+  width: 20%;
+}
 .meetup-logo {
-  width: 40%;
+  width: 30%;
 }
 .coming-soon {
   font-family: "Special Elite", cursive;

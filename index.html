@@ -9,7 +9,7 @@
     <meta name="description" content="JavaScript Women Barcelona, powered by BarcelonaJS">
     <meta name="author" content="Isabel Cabezas Martín @isabelcabezasm">
 
-    <title>AdaJS by BarcelonaJS</title>
+    <title>adaJS by BarcelonaJS</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand capitalize" href="#page-top">AdaJS</a>
+                <a class="navbar-brand ada" href="#page-top">
+                    ada<strong>JS</strong>
+                </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -90,14 +92,17 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name capitalize">AdaJS</span>
+                        <span class="name ada">ada<strong>JS</strong></span>
                         <hr class="star-light">
                         <span class="skills">JavaScript - Women - Barcelona</span>
                         <br />
                         <br />
                         <br />
-                        <p data-bind="text: res().introPart1"></p>
-                        <p data-bind="text: res().introPart2"></p>
+                        <p>
+                            <span class="ada-intro ada">ada<strong>JS</strong></span>
+                            <span data-bind="html: res().introPart1"></span>
+                        </p>
+                        <p data-bind="html: res().introPart2"></p>
                         <p data-bind="text: res().introPart3"></p>
 
                     </div>
@@ -117,23 +122,21 @@
             </div>
             <div class="row" data-bind="foreach: { data: res().events, as: 'event' }">
                 <div class="col-sm-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal"
-                       data-bind="attr: { 'href': '#' + event.id }">
+                    <a class="portfolio-link" data-toggle="modal" data-bind="attr: { 'href': '#' + event.id }">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
-                        </div>                        
-                        <img class="img-responsive img-thumbnail" 
-                             data-bind="attr: { 'src': $parent.getEventCover(event.id), 'alt': event.title }">
+                        </div>
+                        <img class="img-responsive img-thumbnail" data-bind="attr: { 'src': $parent.getEventCover(event.id), 'alt': event.title }">
                         <!-- ko if: !event.completed -->
                         <div class="coming-soon" data-bind="text: $parent.res().titleComingSoon"></div>
-                        <!-- /ko -->                        
+                        <!-- /ko -->
                     </a>
                     <div class="col-sm-12 text-center event-title">
                         <span data-bind="text: event.title"></span>
                     </div>
-                </div>               
+                </div>
             </div>
         </div>
     </section>
@@ -152,6 +155,7 @@
                     <h3 data-bind="text: res().aboutCurrent"></h3>
                 </div>
             </div>
+            <br/>
             <div class="row">
                 <div class="col-sm-2 col-sm-offset-2 text-center">
                     <a href="https://twitter.com/elegarpes" target="_blank" class="portfolio-link" data-toggle="modal">
@@ -181,11 +185,14 @@
                 </div>
             </div>
             <br/>
+            <br/>
+            <br/>
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h3 data-bind="text: res().aboutFounders"></h3>
                 </div>
             </div>
+            <br/>
             <div class="row">
                 <div class="col-sm-2 col-sm-offset-2 text-center">
                     <a href="https://twitter.com/alina_mierlus" target="_blank" class="portfolio-link" data-toggle="modal">
@@ -228,9 +235,10 @@
             </div>
             <div class="row">
                 <div id="mc_embed_signup" class="col-lg-8 col-lg-offset-2">
-                    <p>
+                    <p class="text-center">
                         <span data-bind="text: res().contactText"></span>&nbsp;
-                        <a href="mailto:ada@barcelonajs.org">ada@barcelonajs.org</a>.</p>
+                        <a href="mailto:silvia@barcelonajs.org">silvia@barcelonajs.org</a>.
+                    </p>
                 </div>
             </div>
     </section>
@@ -241,9 +249,8 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3> 
-                            <span class="capitalize">AdaJS</span>&nbsp;
-                            <span data-bind="text: res().titleBelongs"></span>
+                        <h3>
+                            <span class="ada">ada<strong>JS</strong></span>&nbsp;<span data-bind="text: res().titleBelongs"></span>
                         </h3>
                         <p class="bcnjs">
                             <a href="http://barcelonajs.org/" target="_blank">
@@ -255,10 +262,24 @@
                         <h3 data-bind="text: res().titleSocial"></h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="http://twitter.com/adaBcnJS" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="http://twitter.com/adaBcnJS" target="_blank" class="btn-social btn-outline" title="Twitter">
+                                    <i class="fa fa-fw fa-twitter"></i>
+                                </a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/adabcnJS" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/adabcnJS" target="_blank" class="btn-social btn-outline" title="Facebook">
+                                    <i class="fa fa-fw fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/BarcelonaJS/ada" target="_blank" class="btn-social btn-outline" title="Github">
+                                    <i class="fa fa-fw fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plnkr.co/users/adabcnjs" target="_blank" class="btn-social btn-outline" title="Plunker">
+                                    <i class="fa fa-fw fa-arrow-down"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -278,7 +299,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; AdaJS <span data-bind="text: year"></span>
+                        Copyright &copy; <span class="ada">ada<strong>JS</strong>&nbsp;</span><span data-bind="text: year"></span>
                     </div>
                 </div>
             </div>
@@ -301,9 +322,9 @@
                             <div class="modal-body">
                                 <h2 data-bind="text: event.title"></h2>
                                 <hr class="star-primary">
-                                <div class="col-sm-12">
+                                <div class="col-sm-12" data-bind="if: !!event.desc">
                                     <h4 data-bind="text: $parent.res().titleEventDesc"></h4>
-                                    <p class="justify" data-bind="text: event.desc"></p>
+                                    <p class="text-center" data-bind="text: event.desc"></p>
                                 </div>
                                 <div class="col-sm-12">
                                     <ul class="list-inline item-details" data-bind="foreach: { data: $parent.getEventLinks(event.id), as: 'link' }">
