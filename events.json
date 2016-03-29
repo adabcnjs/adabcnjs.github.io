@@ -47,7 +47,7 @@
             },
             {
                 "name": "Github",
-                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/Javascript101"
+                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/javascript-101"
             }
         ]
     },
@@ -62,6 +62,10 @@
             {
                 "name": "ti.to",
                 "url": "https://ti.to/adajs-bcn/workshop-web-development-html-javascript-jquery-part-i"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/web-development-part-1"
             }
         ]
     }
