@@ -98,4 +98,14 @@ var FILMS = [{
   "Plot": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
   "Poster": "http://ia.media-imdb.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg",
   "imdbID": "tt0382932"
+},
+{
+  "Title": "The Good Dinosaur",
+  "Year": "2015",
+  "Genre": "Animation, Adventure, Comedy",
+  "Director": "Peter Sohn",
+  "Actors": "Jeffrey Wright, Frances McDormand, Maleah Nipay-Padilla, Ryan Teeple",
+  "Plot": "In a world where dinosaurs and humans live side-by-side, an Apatosaurus named Arlo makes an unlikely human friend.",
+  "Poster": "http://ia.media-imdb.com/images/M/MV5BMTc5MTg2NjQ4MV5BMl5BanBnXkFtZTgwNzcxOTY5NjE@._V1_SX300.jpg",
+  "imdbID": "tt1979388"
 }];
