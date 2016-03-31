@@ -27,6 +27,9 @@ header .links img {
 	padding: 10px 10px;
 }
 
+#menu {
+	margin-bottom: 30px;
+}
 #menu li {
 	display: inline-block;
 }
@@ -42,10 +45,19 @@ header .links img {
 	background-color: #A2A595;
 }
 
+#films .header {
+	margin: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Fredericka the Great', sans-serif;
+	color: #83C7C7;
+	font-size: 120%;
+}
 .films {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
+	align-items: flex-end;
 	flex-flow: row wrap;
 }
 .film {
