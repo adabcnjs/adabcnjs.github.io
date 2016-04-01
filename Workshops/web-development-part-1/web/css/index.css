@@ -73,6 +73,8 @@ header .links img {
 }
 .film .data .title {
 	font-family: 'Fredericka the Great', sans-serif;
+}
+.film .data .title a:hover {
 	color: #83C7C7;
 }
 
@@ -81,6 +83,7 @@ footer {
     bottom:0;
     height:60px;   
 	padding: 10px 20px;
+	margin-top: 40px;
 	background-color: #E3E7D3;
 }
 footer div {

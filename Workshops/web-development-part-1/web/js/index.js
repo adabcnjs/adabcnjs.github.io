@@ -1,9 +1,9 @@
 $(document).ready(function() {
-	var filmBuilder = {
+	var catalogueUtils = {
 		films: FILMS,
 
-		show: function() {
-			for (var i in this.films) {
+		show: function() {	
+			for (var i=0; i < this.films.length; i++) {
 				var film = FILMS[i];
 				htmlFilm = this.buildHtmlFilm(film);
 				$('.films').append(htmlFilm);
@@ -12,9 +12,9 @@ $(document).ready(function() {
 
 		buildHtmlFilm: function(film) {
 			var html = '<div class="film">';
-			html = html.concat('<img src="'+film.Poster+'"/>');
+			html = html.concat('<img src="'+film.PosterB+'"/>');
 			html = html.concat('<div class="data">');
-			html = html.concat('<div class="title">'+film.Title+'</div>');
+			html = html.concat('<div class="title"><a href="film.html?film='+film.imdbID+'">'+film.Title+'</a></div>');
 			html = html.concat('<div class="genre">'+film.Genre+'</div>');
 			html = html.concat('<div class="year">'+film.Year+'</div>');
 			html.concat('</div>');
@@ -37,13 +37,13 @@ $(document).ready(function() {
 				
 			});
 		}
-	}
+	};
 
-	filmBuilder.show();
+	catalogueUtils.show();
 
 	$('#filmsOrder').change(function() {
-		filmBuilder.sortFilms(this.value);
-		filmBuilder.clear();
-		filmBuilder.show();
-	})
+		catalogueUtils.sortFilms(this.value);
+		catalogueUtils.clear();
+		catalogueUtils.show();
+	});
 });
