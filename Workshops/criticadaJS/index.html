@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="js/database.js"></script>
-    <script src="js/peliculas.js"></script>
+    <script src="js/index.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Fredericka the Great&subset=latin" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/index.css" />
@@ -35,10 +35,10 @@
         <div id=menu>
             <ul>
                 <li>
-                    <button>Inicio</button>
+                    <button onclick="window.location.href='index.html';">Inicio</button>
                 </li>
                 <li>
-                    <button>Películas</button>
+                    <button onclick="window.location.href='index.html';">Películas</button>
                 </li>
                 <li>
                     <button>Más adelante...</button>
@@ -48,7 +48,16 @@
 
         <!-- FILMS -->
         <section>
-            <article>
+            <article id="films">
+                <div class="header">
+                    Estas son las películas de nuestra base de datos!
+                    <select id="filmsOrder">
+                        <option value="" disabled selected>Ordenar por...</option>
+                        <option value="Title">Título</option>
+                        <option value="Year">Año</option>
+                        <option value="Genre">Género</option>
+                    </select>
+                </div>
                 <div class="films"></div>
             </article>
         </section>
@@ -59,6 +68,7 @@
         </footer>
 
     </div>
+    
 </body>
 
 </html>
