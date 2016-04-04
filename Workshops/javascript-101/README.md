@@ -2,18 +2,18 @@
 
 ## Workshop: JavaScript para principiantes
 
-http://ada.barcelonajs.org/ca/index.html
+http://ada.barcelonajs.org
 
 https://www.facebook.com/adabcnJS
 
 https://twitter.com/adabcnjs
 
-http://www.meetup.com/es/AdaBcnJS/
+http://www.meetup.com/es-ES/AdaBcnJS/events/226823609/
 
 
 ## Contenido
 
-http://slides.com/adajs/jsforbeginners/live
+http://slides.com/adajs/jsforbeginners
 
 ## Taller
 
