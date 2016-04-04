@@ -33,7 +33,7 @@
             "id": "webdevpart1",
             "title": "Workshop: Programació web (HTML+JavaScript+jQuery), Part I",
             "desc": "En el nostre primer workshop varem fer una introducció al llenguatge de programació de moda: JavaScript. Sabies que a més JavaScript és el llenguatge de programació de la web? En aquest taller aprendrem les bases d'HTML, què és el DOM, i cóm podem interactuar amb el mateix gràcies a JavaScript. També farem una introducció a jQuery, una llibreria de JavaScript creada al 2006 que ha canviat per sempre la programació web. Vols crear la teva primera aplicació web, i veure de quines altres coses pot ser capaç amb JavaScript? No t'ho perdis!",
-            "completed": false
+            "completed": true
         }
     ]
 }

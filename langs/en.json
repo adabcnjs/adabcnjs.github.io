@@ -33,7 +33,7 @@
             "id": "webdevpart1",
             "title": "Workshop: Web development (HTML+JavaScript+jQuery), Part I",
             "desc": "In our first workshop we did an introduction to today's trendiest programming language: JavaScript. Did you know that JavaScript is also the programming language of the web? In this workshop we'll learn the basics of HTML, what's the DOM, and how we can interact with it thanks to JavaScript. We'll also do an introduction to jQuery, a JavaScript library created in 2006 that's changed web programming forever. Do you want to create your first web application, and get a taste of what you'll be capable of with JavaScript? Don't miss it!",
-            "completed": false            
+            "completed": true            
         }
     ]
 }
