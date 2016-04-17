@@ -101,5 +101,23 @@
                 "url": "http://ada.barcelonajs.org/Workshops/criticadaJS/"
             }
         ]
-    }
+    },
+    "webdevpart2": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "http://www.meetup.com/es-ES/AdaBcnJS/events/230448390/"
+            },
+            {
+                "name": "ti.to",
+                "url": "https://ti.to/adajs-bcn/workshop-web-development-html-javascript-jquery-part-ii"
+            },
+            {
+                "name": "CriticadaJS",
+                "url": "http://ada.barcelonajs.org/Workshops/criticadaJS/"
+            }
+        ]
+    }  
 }
