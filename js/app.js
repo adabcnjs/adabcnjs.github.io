@@ -7,6 +7,7 @@ function appViewModel() {
     this.selectedLang = "es";
     this.res = ko.observable({});
     this.events = ko.observable({});
+    this.members = ko.observable({});
     
     // public methods    
     this.changeLang = function (lang) {
@@ -50,9 +51,16 @@ function appViewModel() {
         });
     }
     
+    function loadMembers() {
+        $.getJSON("members.json", function (data) {
+            self.members(data); 
+        });
+    }
+    
     function init() {
         loadLang(self.selectedLang);
         loadEventGalleries();
+        loadMembers();
     }
     
     // initialization

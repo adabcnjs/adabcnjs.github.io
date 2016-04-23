@@ -1,0 +1,54 @@
+{
+    "current": [
+        {
+            "name": "Elena García",
+            "twitter": "https://twitter.com/elegarpes",
+            "picture": "img/members/elena.jpg",
+            "class": "col-sm-2 col-sm-offset-1"
+        },
+        {
+            "name": "Ana Gamito",
+            "twitter": "https://twitter.com/tsuna__mi",
+            "picture": "img/members/ana.jpg",
+            "class": "col-sm-2"
+        },
+        {
+            "name": "Sílvia Mur",
+            "twitter": "https://twitter.com/pchiwan",
+            "picture": "img/members/silvia.jpg",
+            "class": "col-sm-2"
+        },
+        {
+            "name": "Clara Orti",
+            "twitter": "https://twitter.com/ClaraOrtiMoles",
+            "picture": "img/members/clara.jpg",
+            "class": "col-sm-2"
+        },
+        {
+            "name": "Carmen Checa",
+            "twitter": "https://twitter.com/cmcheca",
+            "picture": "img/members/carmen.jpg",
+            "class": "col-sm-2"
+        }
+    ],
+    "past": [
+        {
+            "name": "Alina Mierluș",
+            "twitter": "https://twitter.com/alina_mierlus",
+            "picture": "img/members/alina.jpg",
+            "class": "col-sm-2 col-sm-offset-3"
+        },
+        {
+            "name": "Isabel Cabezas",
+            "twitter": "https://twitter.com/isabelcabezasm",
+            "picture": "img/members/isabel.jpg",
+            "class": "col-sm-2"
+        },
+        {
+            "name": "Laura Ribes",
+            "twitter": "https://twitter.com/laMosqui",
+            "picture": "img/members/laura.jpg",
+            "class": "col-sm-2"
+        }
+    ]
+}
