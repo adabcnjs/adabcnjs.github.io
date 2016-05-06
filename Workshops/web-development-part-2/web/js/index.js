@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	
+	var posterApi = 'http://img.omdbapi.com/?apikey=75b02365&i=';
 	var catalogueUtils = {
 		films: [],
 
@@ -15,7 +17,7 @@ $(document).ready(function() {
 			if (film.Poster == 'N/A') {
 				html = html.concat('<div class="empty"></div>');				
 			} else {
-				html = html.concat('<img src="'+film.Poster+'"/>');	
+				html = html.concat('<img src="'+posterApi+film.imdbID+'"/>');	
 			}
 			html = html.concat('<div class="data">');
 			html = html.concat('<div class="title"><a href="film.html?film='+film.imdbID+'">'+film.Title+'</a></div>');
