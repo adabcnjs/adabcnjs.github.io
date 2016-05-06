@@ -1,5 +1,6 @@
 $(document).ready(function() {
-
+	
+	var posterApi = 'http://img.omdbapi.com/?apikey=75b02365&i=';
 	var filmUtils = {
 		getParameterByName: function(name) {
 	    	var url = window.location.href;
@@ -22,7 +23,7 @@ $(document).ready(function() {
 		},
 
 		fillFilmInHtml: function(film) {
-			$('.poster').html('<img src="'+film.Poster+'"/>');
+			$('.poster').html('<img src="'+posterApi+film.imdbID+'"/>');
 			$('.title').text(film.Title);
 			$('.year').text(film.Year);
 			$('.genre').text(film.Genre);
