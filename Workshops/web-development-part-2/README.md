@@ -11,10 +11,14 @@ https://twitter.com/adabcnjs
 http://www.meetup.com/es-ES/AdaBcnJS/events/229363514/
 
 ## Contenido
-
+**Slides Html y CSS**
 http://slides.com/adajs/workshop-programacion-web-html-javascript-jquery-parte-i
 
+**Slides jQuery**
 http://slides.com/adajs/jquery-part-1
+
+**Slides Programación asíncrona**
+http://slides.com/adajs/workshop-programacion-web-html-javascript-jquery-parte-ii
 
 ## Taller
 
@@ -22,6 +26,9 @@ Para esta ocasión hemos preparado una serie de ejercicios para que vayas descub
 
 
 Si en cualquier momento te surge una o varias dudas (¡lo raro sería lo contrario!) las organizadores estamos por el aula dispuestas a ayudarte en todo momento.
+
+
+>Encontrarás todos los ejercicios de la sesión y sus soluciones en la carpeta **ejercicios**. Además, el ejercicio final está en la carpeta **final-web**.
 
 ## Encuesta
 

@@ -1,0 +1,39 @@
+ 1. Slides Html-Css: http://slides.com/adajs/workshop-programacion-web-html-javascript-jquery-parte-i
+2. Slides JQUERY: http://slides.com/adajs/jquery-part-1 
+
+Base web 1. jQueryPart2_Empty
+Base web con pelicula harcodeada 2. jQueryPart2_Empty - peliHardcoreada
+https://drive.google.com/open?id=0BwV89gY9gW8acGIycEdwcVJ2blk
+
+
+Plunkr 1. jQuery selectors http://plnkr.co/edit/85gWSR?p=info
+Ejercicio Ej1. jQueryPart2_Empty - selectores - showHide https://drive.google.com/open?id=0BwV89gY9gW8aLWxxcFpLU0lHdGc
+	Añadir otro campo a la película (Descripción) y que al pulsarlo se muestre u oculte la siguiente descripción: 
+	                "Cuando Andy se va de campamento dejando solos a los juguetes, Al McWhiggin, un compulsivo coleccionista de juguetes valiosos, secuestra a Woody. 
+	                Buzz Lightyear y los demás juguetes tendrán que actuar con rapidez si quieren rescatarlo.
+	                Durante la operación de rescate no sólo tendrán que afrontar múltiples peligros, sino que también vivirán divertidas situaciones"
+
+
+Plunkr 2. Eventos, navegación entre elementos del dom http://plnkr.co/edit/ZeAVpM?p=info
+Ejercicio Ej2. jQueryPart2_Empty - NavegacionDom - OnCss https://drive.google.com/open?id=0BwV89gY9gW8aTDJXVHgyZ0xMQlE
+	Conseguir efecto de selección al pasar por encima de la película. Se le aplicará el color de fondo del footer cuando se le pase el ratón por encima y se le aplicará el de por defecto al apartar el ratón. En todo momento se deben ver las letras de la info de la peli.
+	
+
+Plunkr 3. select, change, attr http://plnkr.co/edit/gKn2ZJ
+Ejercicio Ej3. jQueryPart2_Empty - combo https://drive.google.com/open?id=0BwV89gY9gW8aVEhfY3hBY1h2UDQ
+	Añadir un combo a la página web que al seleccionar el nombre de una peli, se consiga efecto de selección sobre la película en concreto.
+	                   Pistas: - Navegar por los elementos del dom siguiendo el ejemplo del plunker 2                          
+				 - Mediante la concatenación se puede obtener un selector dinámicamente $('#'+idFilm)
+
+
+Plunkr 4. Carga de datos estáticos, .append() http://plnkr.co/edit/ijR3Sc?p=info
+Ejercicio Ej4. jQueryPart2_Empty - append https://drive.google.com/open?id=0BwV89gY9gW8aS0oxYkR6R3JaeWs
+	Cargar las pelis a partir de una lista.
+
+
+Plunkr 5. Asignar eventos a elementos de un contenedor http://plnkr.co/edit/7FzsGV?p=info
+Explicar como asignar eventos a elementos cargados dinámicamente (no hay ejercicio)
+
+
+Plunkr 6. A list of movie JSON data retrieved from OMDb API http://plnkr.co/edit/0EHHRs?p=info
+Ejercicio Ej5. jQueryPart2_Empty - api https://drive.google.com/open?id=0BwV89gY9gW8aQldUMzRpRHdOdmM
