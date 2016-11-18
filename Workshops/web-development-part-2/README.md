@@ -1,6 +1,6 @@
 # adaJS
 
-## Workshop: Desarrollo web, Parte I
+## Workshop: Desarrollo web, Parte II
 
 http://ada.barcelonajs.org/ca/index.html
 
@@ -8,7 +8,7 @@ https://www.facebook.com/adabcnJS
 
 https://twitter.com/adabcnjs
 
-http://www.meetup.com/es-ES/AdaBcnJS/events/229363514/
+https://www.meetup.com/es-ES/AdaBcnJS/events/230448390/
 
 ## Contenido
 **Slides Html y CSS**
