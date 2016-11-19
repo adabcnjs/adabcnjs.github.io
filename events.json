@@ -108,16 +108,73 @@
         "links": [
             {
                 "name": "Meetup",
-                "url": "http://www.meetup.com/es-ES/AdaBcnJS/events/230448390/"
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/230448390/"
             },
             {
                 "name": "ti.to",
                 "url": "https://ti.to/adajs-bcn/workshop-web-development-html-javascript-jquery-part-ii"
             },
             {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/blob/master/Workshops/web-development-part-2"
+            },
+            {
                 "name": "CriticadaJS",
                 "url": "http://ada.barcelonajs.org/Workshops/criticadaJS/"
             }
         ]
-    }  
+    },
+    "introtogit": {
+        "cover": "img/events/intro-to-git/intro-to-git-1.jpg",
+        "pics": [
+            {                
+                "url": "img/events/intro-to-git/intro-to-git-1.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {                
+                "url": "img/events/intro-to-git/intro-to-git-2.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {                
+                "url": "img/events/intro-to-git/intro-to-git-3.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {                
+                "url": "img/events/intro-to-git/intro-to-git-4.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/intro-to-git/intro-to-git-5.jpg",
+                "cssClass": "col-sm-6"
+            }
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/234901734/"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/introduction-to-git/"
+            }
+        ]
+    },
+    "introtowp": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/234927681/"
+            },
+            {
+                "name": "CDMon Sign in",
+                "url": "https://www.cdmon.com/es/hosting/hosting-de-prueba/"
+            },
+            {
+                "name": "CDMon Setup",
+                "url": "https://docs.google.com/document/d/1qDoEUNs-BRo395T0VtpZvJUmne3neFStusJ0V_v-ufo/"
+            }
+        ]
+    }
 }

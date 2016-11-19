@@ -1,132 +1,146 @@
+@bgcolor: #5EA0B0;
+@bgcolor-light: #9BDAE1;
+
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6{
-    font-family: "Cabin Sketch";
-    text-transform: none;
+  font-family: "Cabin Sketch";
+  text-transform: none;
 }
 
 body{
-    font-family: Lato;
+  font-family: Lato;
 }
 
 .gallery, .navbar-nav{
-    a{
-        img{
-            &:hover,
-            &:focus,
-            &:active{
-                cursor: pointer;
-                box-shadow: 0 0 10px 3px #18bc9c;
-                border-radius: 20px;
-            }
-        }
+  a{
+    img{
+      &:hover,
+      &:focus,
+      &:active{
+        cursor: pointer;
+        box-shadow: 0 0 10px 3px @bgcolor;
+        border-radius: 20px;
+      }
     }
+  }
 }
 
 
 @media(min-width:768px) {
-    header{
-        .container{
-            padding-top: 150px;
-        }
+  header{
+    .container{
+      padding-top: 150px;
     }
+  }
 
-    .navbar-fixed-top{
-        padding: 10px 0;
-    }
+  .navbar-fixed-top{
+    padding: 10px 0;
+  }
 }
 
 .ada{
-    // font-family: Quicksand!important;
-    font-family: Comfortaa!important;
-    text-transform: lowercase!important;
-    font-weight: 300!important;
-    strong{
-        text-transform: uppercase!important;
-        font-weight: 700!important;
-    }
+  // font-family: Quicksand!important;
+  font-family: Comfortaa!important;
+  text-transform: lowercase!important;
+  font-weight: 300!important;
+  strong{
+    text-transform: uppercase!important;
+    font-weight: 700!important;
+  }
 }
 
 .ada-intro{
-    font-size: 30px;
+  font-size: 30px;
+}
+
+.logo{
+  width: 80%;
 }
 
 .navbar {
-    font-family: Lato;
+  font-family: Lato;
 }
 
 .navbar-default{
-    .navbar-nav{
-        .active{
-            a{
-                border-radius: 10px;
-                &:hover,
-                &:focus{
-                    border-radius: 10px;
-                }
-            }            
+  background-color: @bgcolor-light;
+
+  .navbar-nav{
+    .active{
+      a{
+        border-radius: 10px;
+        &:hover,
+        &:focus{
+          border-radius: 10px;
         }
-        .change-lang{
-            a{
-                background-color: transparent;
-                padding-left: 5px;
-                &:hover,
-                &:focus{
-                    background-color: transparent;
-                }
-                img{
-                    width: 28px;
-                    &:hover,
-                    &:focus,
-                    &:active{
-                        border-radius: 100px !important;
-                    }
-                }
-            }
-        }
+      }      
     }
+    .change-lang{
+      a{
+        background-color: transparent;
+        padding-left: 5px;
+        &:hover,
+        &:focus{
+          background-color: transparent;
+        }
+        img{
+          width: 20px;
+          &:hover,
+          &:focus,
+          &:active{
+            border-radius: 100px !important;
+          }
+        }
+      }
+    }
+  }
 }
 
 #about{
-    .portfolio-link{
-        img{
-            width: 100px;
-        }
+  .portfolio-link{
+    img{
+      width: 100px;
     }
+  }
+}
+
+.member{
+  margin-bottom: 25px;
 }
 
 .event-title{
-    font-weight: bold;
-    margin-top: 10px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .bcnjs img{
-    width: 20%;
+  width: 20%;
 } 
 
 .meetup-logo{
-    width: 30%;
+  width: 30%;
 }
 
 .coming-soon{
-    font-family: "Special Elite", cursive;
-    font-size: 36px;
-    font-weight: bold;
-    color: crimson;
-    position: absolute;
-    top: 80px;
-    left: 40px;
-    -ms-transform: rotate(-20deg); /* IE 9 */
-    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
-    transform: rotate(-20deg);
-    padding: 5px 10px 0 10px;
-    border: 2px dashed crimson;
-    pointer-events: none;
+  font-family: "Special Elite", cursive;
+  font-size: 36px;
+  font-weight: bold;
+  color: crimson;
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  -ms-transform: rotate(-20deg); /* IE 9 */
+  -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+  transform: rotate(-20deg);
+  padding: 5px 10px 0 10px;
+  border: 2px dashed crimson;
+  pointer-events: none;
 }
 
 .justify{
-    text-align: justify;
+  text-align: justify;
 }

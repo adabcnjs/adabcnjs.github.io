@@ -4,7 +4,7 @@
             "name": "Elena García",
             "twitter": "https://twitter.com/elegarpes",
             "picture": "img/members/elena.jpg",
-            "class": "col-sm-2 col-sm-offset-1"
+            "class": "col-sm-2 col-sm-offset-3"
         },
         {
             "name": "Ana Gamito",
@@ -17,17 +17,23 @@
             "twitter": "https://twitter.com/pchiwan",
             "picture": "img/members/silvia.jpg",
             "class": "col-sm-2"
-        },
+        },        
         {
             "name": "Clara Orti",
             "twitter": "https://twitter.com/ClaraOrtiMoles",
             "picture": "img/members/clara.jpg",
-            "class": "col-sm-2"
+            "class": "col-sm-2 col-sm-offset-3"
         },
         {
             "name": "Carmen Checa",
             "twitter": "https://twitter.com/cmcheca",
-            "picture": "img/members/carmen.jpg",
+            "picture": "img/members/carmen-c.jpg",
+            "class": "col-sm-2"
+        },
+        {
+            "name": "Carmen Ansio",
+            "twitter": "https://twitter.com/carmenansio",
+            "picture": "img/members/carmen-a.jpg",
             "class": "col-sm-2"
         }
     ],
