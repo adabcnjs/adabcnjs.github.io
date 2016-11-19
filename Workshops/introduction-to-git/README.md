@@ -8,7 +8,7 @@ https://www.facebook.com/adabcnJS
 
 https://twitter.com/adabcnjs
 
-https://www.meetup.com/AdaBcnJS/events/234927681/
+https://www.meetup.com/AdaBcnJS/events/234901734/
 
 
 ## Contenido
@@ -18,7 +18,9 @@ http://slides.com/adajs/git-workshop
 ## Taller
 
 Git es un sistema de control de versiones creado por Linus Torvalds que se utiliza para el desarrollo de software y otras tareas de control de versiones. Como sistema de control de versiones distribuido, está dirigido a la velocidad, integridad de los datos, y el apoyo a los flujos de trabajo distribuidos y no lineales. Permite a grupos de personas trabajar en los mismos documentos al mismo tiempo sin pisarse mutuamente. 
+
 Hoy en día Git es una herramienta indispensable para los proyectos colaborativos de código abierto. En este taller aprenderemos la filosofía de trabajo con repositorios de código, cómo funciona Git, y a utilizar Git desde la consola de comandos.
+
 Requisitos
 * Un ordenador portátil
 * Descargar e instalar Git en tu portátil (Windows | Mac OS X) 
