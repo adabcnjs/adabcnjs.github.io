@@ -39,7 +39,19 @@
             "id": "webdevpart2",
             "title": "Workshop: Programación web (HTML+JavaScript+jQuery), Parte II",
             "desc": "En la primera parte del taller de desarrollo web aprendimos las bases de HTML y el DOM, y también hicimos una introducción a CSS y a jQuery, una librería de JavaScript creada en 2006 que ha cambiado para siempre la programación web. En esta segunda parte seguiremos desarrollando nuestra primera aplicación web con jQuery, y cargaremos datos dinámicamente mediante consultas AJAX a una API pública. No pasa nada si te perdiste la primera parte del taller, ¡también eres bienvenida! Te daremos el material necesario y estaremos ahí para echarte una mano en todo momento.",
+            "completed": true
+        },
+        {
+            "id": "introtogit",
+            "title": "Workshop: Introducción a Git",
+            "desc": "Git es un sistema de control de versiones creado por Linus Torvalds que se utiliza para el desarrollo de software y otras tareas de control de versiones. Como sistema de control de versiones distribuido, está dirigido a la velocidad, integridad de los datos, y el apoyo a los flujos de trabajo distribuidos y no lineales. Permite a grupos de personas trabajar en los mismos documentos al mismo tiempo sin pisarse mutuamente. Hoy en día Git es una herramienta indispensable para los proyectos colaborativos de código abierto. En este taller aprenderemos la filosofía de trabajo con repositorios de código, cómo funciona Git, y a utilizar Git desde la consola de comandos.",
+            "completed": true
+        },
+        {
+            "id": "introtowp",
+            "title": "Workshop: Introducción a WordPress",
+            "desc": "WordPress es el sistema de gestión de contenidos (CMS por sus siglas en inglés: Content Management System) más popular y utilizado del mundo. Se utiliza tanto para la creación de webs corporativas, como de webs personales o blogs. Su popularidad radica principalmente en la gran cantidad de plugins disponibles, gracias a su enorme comunidad de usuarios y desarrolladores. Este taller será una introducción a Wordpress: te acompañaremos en tus primeros pasos y te mostraremos cómo seguir por tu cuenta a partir de ahí.",
             "completed": false
-        }               
+        }
     ]
 }

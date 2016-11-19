@@ -39,7 +39,19 @@
             "id": "webdevpart2",
             "title": "Workshop: Web development (HTML+JavaScript+jQuery), Part II",
             "desc": "In the first part of the web development workshop we learnt the basics of HTML and the DOM, and we also did an introduction to CSS and jQuery, a JavaScript library created in 2006 that's changed web programming forever. In this second part we'll keep developing our first web application with jQuery, and we'll be loading data dynamically by means of AJAX requests to a public API. Don't worry if you missed the workshop's first part, you're also welcome to join! We'll provide you with the necessary material and we'll be there to give you a hand the whole time.",
-            "completed": false            
+            "completed": true            
+        },
+        {
+            "id": "introtogit",
+            "title": "Workshop: Intro to Git",
+            "desc": "Git is a version control system created by Linus Torvalds that is used for software development and other version control tasks. As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows. It allows groups of people to work on the same documents at the same time, without stepping on each other's toes. Nowadays Git is an indispensable tool for collaborative open-source projects. In this workshop we'll learn the philosophy of working with code repositories, how Git works, and how to use Git on the command-line.",
+            "completed": true
+        },
+        {
+            "id": "introtowp",
+            "title": "Workshop: Intro to WordPress",
+            "desc": "Wordpress is the world's most popular and commonly used CMS (Content Management System). It's used for creating corporate websites, as well as personal websites, or standard blogs. The popularity of WordPress is largely due to its vast array of available plugins, thanks to its enormous user and developer community. This workshop will be an introduction to Wordpress: we'll take you through your first steps and show you how to take it on your own from there.",
+            "completed": false
         }
     ]
 }

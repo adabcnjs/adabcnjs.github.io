@@ -39,6 +39,18 @@
             "id": "webdevpart2",
             "title": "Workshop: Programació web (HTML+JavaScript+jQuery), Part II",
             "desc": "A la primera part del taller de desenvolupament web varem aprendre les bases d'HTML i el DOM, i també varem fer una introducció a CSS i a jQuery, una llibreria de JavaScript creada al 2006 que ha canviat per a sempre la programació web. En aquesta segona part seguirem desenvolupant la nostra primera aplicació web amb jQuery, i carregarem dades dinàmicament mitjançant consultes AJAX a una API pública. No pasa res si et vas perdre la primera part del taller, també ets benvinguda! Et donarem el material necessari i estarem allí per a donar-te un cop de mà en tot moment.",
+            "completed": true
+        },
+        {
+            "id": "introtogit",
+            "title": "Workshop: Introducció a Git",
+            "desc": "Git és un sistema de control de versions creat per Linus Torvalds que s'utilitza per al desenvolupament de software i d'altres tasques de control de versions. Com a sistema de control de versions distribuït, està dirigit a la velocitat, integritat de les dades, i el suport als fluxes de treball distribuïts i no lineals. Permet a grups de persones treballar en els mateixos documents alhora sense trepitjar-se la feina mutuament. Avui en dia Git és una eina indispensable pels projectes col·laboratius de codi obert. En aquest taller aprendrem la filosofia de treball amb repositoris de codi, cóm funciona Git, i a utilitzar Git des de la consola de comandes.",
+            "completed": true
+        },
+        {
+            "id": "introtowp",
+            "title": "Workshop: Introducció a WordPress",
+            "desc": "WordPress és el sistema de gestió de continguts (CMS per les seves sigles en anglès: Content Management System) més popular i utilitzat del món. S'utilitza tant per a la creació de webs corporatives, com de webs personals o blogs. La seva popularitat radica principalment en la gran quantitat de plugins disponibles, gràcies a la seva enorme comunitat d'usuaris i desenvolupadors. Aquest taller serà una introducció a WordPress: t'acompanyarem en les teves primeres passes i et mostrarem cóm seguir pel teu compte a partir d'aquí.",
             "completed": false
         }
     ]

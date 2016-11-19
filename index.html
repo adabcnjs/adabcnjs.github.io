@@ -90,9 +90,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="img-responsive logo" src="img/logo.png" alt="">
                     <div class="intro-text">
-                        <span class="name ada">ada<strong>JS</strong></span>
                         <hr class="star-light">
                         <span class="skills">JavaScript - Women - Barcelona</span>
                         <br />
@@ -158,7 +157,7 @@
             <br/>
             <!-- current members -->
             <div class="row" data-bind="foreach: { data: members().current, as: 'member' }">                
-                <div data-bind="attr: { 'class': member.class }">
+                <div data-bind="attr: { 'class': member.class }, css: { 'member': true }">
                     <a data-bind="attr: { 'href': member.twitter }" target="_blank" class="portfolio-link" data-toggle="modal">
                         <img data-bind="attr: { 'src': member.picture, 'alt': member.name }"  class="img-responsive img-circle img-centered">
                     </a>
@@ -167,7 +166,6 @@
                     </div>
                 </div>                
             </div>
-            <br/>
             <br/>
             <br/>
             <div class="row">

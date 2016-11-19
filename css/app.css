@@ -17,7 +17,7 @@ body {
 .gallery a img:active,
 .navbar-nav a img:active {
   cursor: pointer;
-  box-shadow: 0 0 10px 3px #18bc9c;
+  box-shadow: 0 0 10px 3px #5EA0B0;
   border-radius: 20px;
 }
 @media (min-width: 768px) {
@@ -40,8 +40,14 @@ body {
 .ada-intro {
   font-size: 30px;
 }
+.logo {
+  width: 80%;
+}
 .navbar {
   font-family: Lato;
+}
+.navbar-default {
+  background-color: #9BDAE1;
 }
 .navbar-default .navbar-nav .active a {
   border-radius: 10px;
@@ -59,7 +65,7 @@ body {
   background-color: transparent;
 }
 .navbar-default .navbar-nav .change-lang a img {
-  width: 28px;
+  width: 20px;
 }
 .navbar-default .navbar-nav .change-lang a img:hover,
 .navbar-default .navbar-nav .change-lang a img:focus,
@@ -68,6 +74,9 @@ body {
 }
 #about .portfolio-link img {
   width: 100px;
+}
+.member {
+  margin-bottom: 25px;
 }
 .event-title {
   font-weight: bold;
