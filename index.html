@@ -120,17 +120,22 @@
                 </div>
             </div>
             <div class="row" data-bind="foreach: { data: res().events, as: 'event' }">
-                <div class="col-sm-4 portfolio-item">
+                <!-- ko if: $index() > 0 && $index() % 3 === 0 -->
+                <div class="clearfix"></div>
+                <!-- /ko -->
+                <div class="col-sm-4 portfolio-item center">
                     <a class="portfolio-link" data-toggle="modal" data-bind="attr: { 'href': '#' + event.id }">
+                        <!-- ko if: !event.completed -->
+                        <div class="coming-soon">
+                            <span data-bind="text: $parent.res().titleComingSoon"></span>
+                        </div>
+                        <!-- /ko -->
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-responsive img-thumbnail" data-bind="attr: { 'src': $parent.getEventCover(event.id), 'alt': event.title }">
-                        <!-- ko if: !event.completed -->
-                        <div class="coming-soon" data-bind="text: $parent.res().titleComingSoon"></div>
-                        <!-- /ko -->
+                        <img class="img-responsive img-thumbnail" data-bind="attr: { 'src': $parent.getEventCover(event.id), 'alt': event.title }">                        
                     </a>
                     <div class="col-sm-12 text-center event-title">
                         <span data-bind="text: event.title"></span>
@@ -156,8 +161,11 @@
             </div>
             <br/>
             <!-- current members -->
-            <div class="row" data-bind="foreach: { data: members().current, as: 'member' }">                
-                <div data-bind="attr: { 'class': member.class }, css: { 'member': true }">
+            <div class="row" data-bind="foreach: { data: members().current, as: 'member' }">
+                <!-- ko if: $index() > 0 && $index() % 3 === 0 -->
+                <div class="clearfix"></div>
+                <!-- /ko -->
+                <div class="member col-sm-2" data-bind="css: { 'col-sm-offset-3': $index() % 3 === 0 }">
                     <a data-bind="attr: { 'href': member.twitter }" target="_blank" class="portfolio-link" data-toggle="modal">
                         <img data-bind="attr: { 'src': member.picture, 'alt': member.name }"  class="img-responsive img-circle img-centered">
                     </a>
@@ -176,7 +184,7 @@
             <br/>
             <!-- past members -->
             <div class="row" data-bind="foreach: { data: members().past, as: 'member' }">                
-                <div data-bind="attr: { 'class': member.class }, css: { 'member': true }">
+                <div class="member col-sm-2" data-bind="css: { 'col-sm-offset-3': $index() % 3 === 0 }">
                     <a data-bind="attr: { 'href': member.twitter }" target="_blank" class="portfolio-link" data-toggle="modal">
                         <img data-bind="attr: { 'src': member.picture, 'alt': member.name }" class="img-responsive img-circle img-centered">
                     </a>
@@ -271,7 +279,7 @@
     </footer>
 
     <!-- Portfolio Modals: dynamically constructed -->
-    <div data-bind="foreach: { data: res().events, as: 'event' }">
+    <div data-bind="foreach: { data: res().events, as: 'event' }">        
         <div class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-bind="attr: { 'id': event.id }">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">

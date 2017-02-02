@@ -127,23 +127,29 @@ body{
 }
 
 .coming-soon{
-  font-family: "Special Elite", cursive;
-  font-size: 36px;
-  font-weight: bold;
-  color: crimson;
   position: absolute;
-  top: 80px;
-  left: 40px;
-  -ms-transform: rotate(-20deg); /* IE 9 */
-  -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
-  transform: rotate(-20deg);
-  padding: 5px 10px 0 10px;
-  border: 2px dashed crimson;
   pointer-events: none;
+  top: 45%;
+  width: 100%;
+  -ms-transform: rotate(-15deg); /* IE 9 */
+  -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+  transform: rotate(-15deg);
+  span{
+    font-family: "Special Elite", cursive;  
+    font-weight: bold;
+    color: crimson;
+    font-size: 24px;
+    border: 2px dashed crimson;
+    padding: 5px 10px;    
+  }
 }
 
 .justify{
   text-align: justify;
+}
+
+.center{
+  text-align: center;
 }
 
 .portfolio-link{
@@ -151,3 +157,50 @@ body{
     max-height: 207px;
   }
 }
+
+// @media (max-width: 320px) {
+//   .coming-soon{
+//     font-size: 22px;
+//     top: 70px;
+//     left: 50px;
+//   }
+// }
+
+// @media (min-width: 320px) and (max-width: 400px) {
+//   .coming-soon{
+//     font-size: 35px;
+//     top: 80px;
+//     left: 60px;
+//   }
+// }
+
+// @media (min-width: 400px) and (max-width: 768px) {
+//   .coming-soon{
+//     font-size: 36px;
+//     top: 70px;
+//     left: 60px;
+//   }
+// }
+
+// @media (min-width: 768px) and (max-width: 992px) {
+//   .coming-soon{
+//     font-size: 20px;
+//     top: 50px;
+//     left: 30px;
+//   }
+// }
+
+// @media (min-width: 992px) and (max-width: 1199px) {
+//   .coming-soon{
+//     font-size: 30px;
+//     top: 60px;
+//     left: 30px;
+//   }
+// }
+
+
+// @media (min-width: 1200px) {
+//   .coming-soon{
+//     font-size: 36px;
+//   }
+// }

@@ -90,24 +90,29 @@ body {
   width: 30%;
 }
 .coming-soon {
-  font-family: "Special Elite", cursive;
-  font-size: 36px;
-  font-weight: bold;
-  color: crimson;
   position: absolute;
-  top: 80px;
-  left: 40px;
+  pointer-events: none;
+  top: 45%;
+  width: 100%;
   -ms-transform: rotate(-20deg);
   /* IE 9 */
   -webkit-transform: rotate(-20deg);
   /* Chrome, Safari, Opera */
   transform: rotate(-20deg);
-  padding: 5px 10px 0 10px;
+}
+.coming-soon span {
+  font-family: "Special Elite", cursive;
+  font-weight: bold;
+  color: crimson;
+  font-size: 24px;
   border: 2px dashed crimson;
-  pointer-events: none;
+  padding: 5px 10px;
 }
 .justify {
   text-align: justify;
+}
+.center {
+  text-align: center;
 }
 .portfolio-link .img-thumbnail {
   max-height: 207px;
