@@ -51,6 +51,24 @@
             "id": "introtowp",
             "title": "Workshop: Introducció a WordPress",
             "desc": "WordPress és el sistema de gestió de continguts (CMS per les seves sigles en anglès: Content Management System) més popular i utilitzat del món. S'utilitza tant per a la creació de webs corporatives, com de webs personals o blogs. La seva popularitat radica principalment en la gran quantitat de plugins disponibles, gràcies a la seva enorme comunitat d'usuaris i desenvolupadors. Aquest taller serà una introducció a WordPress: t'acompanyarem en les teves primeres passes i et mostrarem cóm seguir pel teu compte a partir d'aquí.",
+            "completed": true
+        },
+        {
+            "id": "introtonpm",
+            "title": "Workshop: Introducció a npm",
+            "desc": "Node.js ha revolucionat la manera de crear aplicacions JavaScript gràcies, en gran part, a npm, el seu gestor de paquets. npm (Node Package Manager) permet consumir i distribuir mòduls JavaScript a través del seu registre, que avui dia compta amb més de 350.000 paquets. El registre de npm és una col·lecció pública de paquets de codi obert per a Node.js, aplicacions front-end, aplicacions mòbils, robots, routers, i una infinitat de necessitats de la comunitat JavaScript. En aquest taller Kat Marchán, enginyera a npm, Inc., ens ensenyarà què és npm, com utilitzar-lo, com publicar els nostres propis paquets, i com treure-li profit a les altres eines que npm proveeix.",
+            "completed": true
+        },
+        {
+            "id": "htmlgamestalk",
+            "title": "Xerrada: Videojocs en HTML5",
+            "desc": "",
+            "completed": false
+        },
+        {
+            "id": "htmlgames",
+            "title": "Workshop: Videojocs en HTML5",
+            "desc": "",
             "completed": false
         }
     ]

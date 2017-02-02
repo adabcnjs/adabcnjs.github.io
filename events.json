@@ -129,15 +129,15 @@
         "pics": [
             {                
                 "url": "img/events/intro-to-git/intro-to-git-1.jpg",
-                "cssClass": "col-sm-4"
+                "cssClass": "col-sm-6"
             },
             {                
                 "url": "img/events/intro-to-git/intro-to-git-2.jpg",
-                "cssClass": "col-sm-4"
+                "cssClass": "col-sm-6"
             },
             {                
                 "url": "img/events/intro-to-git/intro-to-git-3.jpg",
-                "cssClass": "col-sm-4"
+                "cssClass": "col-sm-6"
             },
             {                
                 "url": "img/events/intro-to-git/intro-to-git-4.jpg",
@@ -145,7 +145,7 @@
             },
             {                
                 "url": "img/events/intro-to-git/intro-to-git-5.jpg",
-                "cssClass": "col-sm-6"
+                "cssClass": "col-sm-12"
             }
         ],
         "links": [
@@ -160,8 +160,29 @@
         ]
     },
     "introtowp": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/intro-to-wp/intro-to-wp-2.jpg",
+        "pics": [
+            {
+                "url": "img/events/intro-to-wp/intro-to-wp-1.jpg",
+                "cssClass": "col-sm-12"
+            },
+            {
+                "url": "img/events/intro-to-wp/intro-to-wp-2.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-to-wp/intro-to-wp-3.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-to-wp/intro-to-wp-4.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-to-wp/intro-to-wp-5.jpg",
+                "cssClass": "col-sm-6"
+            }
+        ],
         "links": [
             {
                 "name": "Meetup",
@@ -180,5 +201,54 @@
                 "url": "https://docs.google.com/document/d/1qDoEUNs-BRo395T0VtpZvJUmne3neFStusJ0V_v-ufo/"
             }
         ]
+    },
+    "introtonpm": {
+        "cover": "img/events/intro-to-npm/intro-to-npm-4.jpg",
+        "pics": [
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-1.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-2.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-6.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-3.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-4.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-5.jpg",
+                "cssClass": "col-sm-12"
+            }
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/236920001"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/introduction-to-npm/"
+            }
+        ]
+    },
+    "htmlgamestalk": {
+        "cover": "",
+        "pics": [],
+        "links": []
+    },
+    "htmlgames": {
+        "cover": "",
+        "pics": [],
+        "links": []
     }
 }

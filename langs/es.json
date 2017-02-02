@@ -51,6 +51,24 @@
             "id": "introtowp",
             "title": "Workshop: Introducción a WordPress",
             "desc": "WordPress es el sistema de gestión de contenidos (CMS por sus siglas en inglés: Content Management System) más popular y utilizado del mundo. Se utiliza tanto para la creación de webs corporativas, como de webs personales o blogs. Su popularidad radica principalmente en la gran cantidad de plugins disponibles, gracias a su enorme comunidad de usuarios y desarrolladores. Este taller será una introducción a Wordpress: te acompañaremos en tus primeros pasos y te mostraremos cómo seguir por tu cuenta a partir de ahí.",
+            "completed": true
+        },
+        {
+            "id": "introtonpm",
+            "title": "Workshop: Introducción a npm",
+            "desc": "Node.js ha revolucionado la manera de crear aplicaciones JavaScript gracias, en gran parte, a npm, su gestor de paquetes. npm (Node Package Manager) permite consumir y distribuir módulos JavaScript a través de su registro, que hoy en día cuenta con más de 350.000 paquetes. El registro de npm es una colección pública de paquetes de código abierto para Node.js, aplicaciones front-end, aplicaciones móviles, robots, routers, y un sinfín de necesidades de la comunidad JavaScript. En este taller Kat Marchán, ingeniera en npm, Inc., nos enseñará qué es npm, cómo utilizarlo, cómo publicar nuestros propios paquetes, y cómo sacarle provecho a las otras herramientas que npm provee.",
+            "completed": true
+        },
+        {
+            "id": "htmlgamestalk",
+            "title": "Charla: Videojuegos en HTML5",
+            "desc": "",
+            "completed": false
+        },
+        {
+            "id": "htmlgames",
+            "title": "Workshop: Videojuegos en HTML5",
+            "desc": "",
             "completed": false
         }
     ]
