@@ -103,8 +103,21 @@
         ]
     },
     "webdevpart2": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/web-dev-part2/web-dev-part2-2.jpg",
+        "pics": [
+            {
+                "url": "img/events/web-dev-part2/web-dev-part2-1.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/web-dev-part2/web-dev-part2-2.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/web-dev-part2/web-dev-part2-3.jpg",
+                "cssClass": "col-sm-4"
+            }
+        ],
         "links": [
             {
                 "name": "Meetup",
