@@ -62,13 +62,13 @@
         {
             "id": "htmlgamestalk",
             "title": "Charla: Introducción al taller de videojuegos en HTML5",
-            "desc": "",
-            "completed": false
+            "desc": "Este evento será una introducción al Taller de videojuegos en HTML5 del próximo sábado 4 de marzo, en el que Belén Albeza nos enseñará y guiará en la creación de un videojuego desde cero. El evento constará de dos partes: en la primera, hablaremos de por qué hacer un videojuego en HTML5, herramientas para hacer videojuegos en HTML5, y conceptos básicos de programación de videojuegos 2D. En la segunda parte refrescaremos conceptos básicos de JavaScript necesarios para el taller, como new, this, funciones, arrays, etc.",
+            "completed": true
         },
         {
             "id": "htmlgames",
             "title": "Workshop: Videojuegos en HTML5",
-            "desc": "",
+            "desc": "Los videojuegos HTML5 nos permiten publicar juegos en la web a los que cualquiera puede acceder y jugar sin necesidad de instalar ningún software adicional: tan sólo es necesario un navegador de internet. Hay muchas herramientas para desarrollar juegos HTML5; una muy popular es Phaser, un framework JavaScript para videojuegos en 2D que cuenta con cientos de videojuegos gratuitos publicados. ¡Incluso Iron Maiden han promocionado su último álbum con un videojuego desarrollado con Phaser! En este taller Belén Albeza nos enseñará y guiará en la creación, paso a paso, de un videojuego de plataformas, utilizando Phaser.",
             "completed": false
         }
     ]

@@ -51,7 +51,7 @@
             "id": "introtowp",
             "title": "Workshop: Intro to WordPress",
             "desc": "Wordpress is the world's most popular and commonly used CMS (Content Management System). It's used for creating corporate websites, as well as personal websites, or standard blogs. The popularity of WordPress is largely due to its vast array of available plugins, thanks to its enormous user and developer community. This workshop will be an introduction to Wordpress: we'll take you through your first steps and show you how to take it on your own from there.",
-            "completed": false
+            "completed": true
         },
         {
             "id": "introtonpm",
@@ -63,7 +63,7 @@
             "id": "htmlgamestalk",
             "title": "Talk: Intro to the HTML5 games workshop",
             "desc": "",
-            "completed": false
+            "completed": true
         },
         {
             "id": "htmlgames",

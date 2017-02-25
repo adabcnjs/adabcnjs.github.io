@@ -70,14 +70,21 @@ body{
   background-color: @bgcolor-light;
 
   .navbar-nav{
-    .active{
+    li{
       a{
-        border-radius: 10px;
-        &:hover,
-        &:focus{
-          border-radius: 10px;
+        &:hover{
+          color: @bgcolor
         }
-      }      
+      }
+      &.active{
+        a{
+          border-radius: 10px;
+          &:hover,
+          &:focus{
+            border-radius: 10px;
+          }
+        }      
+      }
     }
     .change-lang{
       a{

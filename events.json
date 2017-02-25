@@ -255,13 +255,65 @@
         ]
     },
     "htmlgamestalk": {
-        "cover": "",
-        "pics": [],
-        "links": []
+        "cover": "img/events/html-games/html-games-6.jpg",
+        "pics": [
+            {
+                "url": "img/events/html-games/html-games-4.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/html-games/html-games-2.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/html-games/html-games-3.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/html-games/html-games-5.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/html-games/html-games-6.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/html-games/html-games-1.jpg",
+                "cssClass": "col-sm-12"
+            }
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/237412624/"
+            },
+            {
+                "name": "Slides",
+                "url": "https://belen-albeza.github.io/intro-gamedev/#1"
+            },
+            {
+                "name": "Tutorial",
+                "url": "https://mozdevs.github.io/js-for-gamedev/es/"
+            }
+        ]
     },
     "htmlgames": {
         "cover": "",
         "pics": [],
-        "links": []
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/237471558/"
+            
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/pchiwan/ada/tree/master/Workshops/html5-games"
+            },
+            {
+                "name": "Slides",
+                "url": "https://mozdevs.github.io/html5-games-workshop/en/guides/platformer/initialise-phaser/"
+            }
+        ]
     }
 }

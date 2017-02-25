@@ -49,11 +49,14 @@ body {
 .navbar-default {
   background-color: #9BDAE1;
 }
-.navbar-default .navbar-nav .active a {
+.navbar-default .navbar-nav li a:hover {
+  color: #5EA0B0;
+}
+.navbar-default .navbar-nav li.active a {
   border-radius: 10px;
 }
-.navbar-default .navbar-nav .active a:hover,
-.navbar-default .navbar-nav .active a:focus {
+.navbar-default .navbar-nav li.active a:hover,
+.navbar-default .navbar-nav li.active a:focus {
   border-radius: 10px;
 }
 .navbar-default .navbar-nav .change-lang a {
@@ -94,11 +97,11 @@ body {
   pointer-events: none;
   top: 45%;
   width: 100%;
-  -ms-transform: rotate(-20deg);
+  -ms-transform: rotate(-15deg);
   /* IE 9 */
-  -webkit-transform: rotate(-20deg);
+  -webkit-transform: rotate(-15deg);
   /* Chrome, Safari, Opera */
-  transform: rotate(-20deg);
+  transform: rotate(-15deg);
 }
 .coming-soon span {
   font-family: "Special Elite", cursive;
