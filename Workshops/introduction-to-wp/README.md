@@ -34,16 +34,6 @@ Puedes darnos tu opinión completando la siguiente encuesta (completamente anón
  
 Este taller es una introducción a WordPress, en la que hemos visto cómo instalar WordPress en un hosting gratuito, y hemos cubierto las distintas opciones de configuración del panel de administración de WordPress, a un nivel básico.  
    
-  
-### LIBROS 
- 
-   
 ### REFERENCIAS 
   
-[https://codex.wordpress.org/Editing_wp-config.php](https://codex.wordpress.org/Editing_wp-config.php) 
- 
-  
-### TUTORIALES 
- 
- 
-### OTROS CURSOS MUY INTERESANTES: 
+[https://codex.wordpress.org/Editing_wp-config.php](https://codex.wordpress.org/Editing_wp-config.php)
