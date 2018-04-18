@@ -1,11 +1,11 @@
 # TDD Workshop
 
 ## Values
-- communication
-- simplicity
-- feedback
-- honesty
-- respect
+- Communication
+- Simplicity
+- Feedback
+- Honesty
+- Respect
 
 **With XP and TDD your code will naturally follow the previous values**
 
@@ -30,12 +30,13 @@ Do small steps, if you write a boolean function your production code will return
 ### Kata 1
 http://osherove.com/tdd-kata-1/
 
-### Kata 2: word wrap
+### Kata 2: Word wrap
+```
 "hola", 2 => "ho\nla"
 "holamundo", 7 => "holamun\ndo"
 "hola mundo", 7 => "hola\nmundo"
 "abc", 5 => "abc"
-
+```
 
 ## Suggestions
 - Do microcommits: after a green, even sometimes after a red
