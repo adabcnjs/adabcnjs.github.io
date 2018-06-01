@@ -2,7 +2,7 @@
 
 JavaScript - Women - Barcelona
 
-* [Website](https://adajs.cat)
+* [Website](http://adajs.cat)
 * [Twitter](https://twitter.com/adabcnjs)
 * [Meetup](https://www.meetup.com/AdaBcnJS)
  
