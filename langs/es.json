@@ -1,0 +1,75 @@
+{
+    "title": "AdaJS by BarcelonaJS",
+    "menuEvents": "Eventos",
+    "menuAboutUs": "Sobre nosotras",
+    "menuContact": "Contacto",
+    "introPart1": "es una comunidad de mujeres que se reúnen periódicamente en Barcelona, con el objetivo de promover y apoyar el crecimiento del sector femenino en el ámbito de las tecnologías de la información (IT) a través de <strong>JavaScript</strong> y el desarrollo web en general.<br>Por eso nuestro carácter es eminentemente práctico y educativo.",
+    "introPart2": "¿Qué hacemos? Organizamos encuentros y talleres gratuitos en los que ofrecemos a nuestras miembros formación en técnicas de desarrollo web y <strong>JavaScript</strong>.",
+    "introPart3": "No existe ningún tipo de prerrequisito para entrar a formar parte de este grupo, ¡tan sólo necesitas tener ganas de participar!",
+    "titleContact": "Contacta con nosotras",
+    "contactText": "Si tienes algún comentario, petición o propuesta, no dudes en ponerte en contacto con nosotras en el email:",
+    "aboutFounders": "Las fundadoras",
+    "aboutCurrent": "Miembros en activo",
+    "titleUpcoming": "Próximos eventos",
+    "titleSocial": "Redes sociales",
+    "titleBelongs": "es parte de",
+    "titleComingSoon": "Próximamente",
+    "joinMeetup": "Apúntate a nuestro Meetup",
+    "titleEventDesc": "Descripción del evento",
+    "events": [
+        {
+            "id": "ladiesjs",
+            "title": "LadiesJS: Introducción a JavaScript",
+            "desc": "",
+            "completed": true
+        },
+        {
+            "id": "jsforbeginners",
+            "title": "Workshop: JavaScript para principiantes",
+            "desc": "¿Sabías que el primer programador fue una mujer? (Ada Lovelace, nuestra \"patrona\"). ¿Sabías que la UE prevee que en 5 años se creen 900.000 puestos de trabajo relacionados con las TIC? ¿Te atraen internet y la tecnología? ¿Te gustaría saber programar pero crees que es muy difícil? ¡En absoluto! Este será un taller práctico de 3 horas en el cual te ayudaremos a aprender, por ti misma y a tu ritmo, los principios de la programación con el lenguaje de moda: JavaScript.",
+            "completed": true
+        },
+        {
+            "id": "webdevpart1",
+            "title": "Workshop: Programación web (HTML + JavaScript + jQuery), Parte I",
+            "desc": "En nuestro primer workshop hicimos una introducción al lenguaje de programación de moda: JavaScript. ¿Sabías que además JavaScript es el lenguaje de programación de la web? En este taller aprenderemos las bases de HTML, qué es el DOM, y cómo podemos interactuar con el mismo gracias a JavaScript. También haremos una introducción a jQuery, una librería de JavaScript creada en 2006 que ha cambiado para siempre la programación web. ¿Quieres crear tu primera aplicación web, y ver de qué otras cosas puedes ser capaz con JavaScript? ¡No te lo pierdas!",
+            "completed": true
+        },
+        {
+            "id": "webdevpart2",
+            "title": "Workshop: Programación web (HTML + JavaScript + jQuery), Parte II",
+            "desc": "En la primera parte del taller de desarrollo web aprendimos las bases de HTML y el DOM, y también hicimos una introducción a CSS y a jQuery, una librería de JavaScript creada en 2006 que ha cambiado para siempre la programación web. En esta segunda parte seguiremos desarrollando nuestra primera aplicación web con jQuery, y cargaremos datos dinámicamente mediante consultas AJAX a una API pública. No pasa nada si te perdiste la primera parte del taller, ¡también eres bienvenida! Te daremos el material necesario y estaremos ahí para echarte una mano en todo momento.",
+            "completed": true
+        },
+        {
+            "id": "introtogit",
+            "title": "Workshop: Introducción a Git",
+            "desc": "Git es un sistema de control de versiones creado por Linus Torvalds que se utiliza para el desarrollo de software y otras tareas de control de versiones. Como sistema de control de versiones distribuido, está dirigido a la velocidad, integridad de los datos, y el apoyo a los flujos de trabajo distribuidos y no lineales. Permite a grupos de personas trabajar en los mismos documentos al mismo tiempo sin pisarse mutuamente. Hoy en día Git es una herramienta indispensable para los proyectos colaborativos de código abierto. En este taller aprenderemos la filosofía de trabajo con repositorios de código, cómo funciona Git, y a utilizar Git desde la consola de comandos.",
+            "completed": true
+        },
+        {
+            "id": "introtowp",
+            "title": "Workshop: Introducción a WordPress",
+            "desc": "WordPress es el sistema de gestión de contenidos (CMS por sus siglas en inglés: Content Management System) más popular y utilizado del mundo. Se utiliza tanto para la creación de webs corporativas, como de webs personales o blogs. Su popularidad radica principalmente en la gran cantidad de plugins disponibles, gracias a su enorme comunidad de usuarios y desarrolladores. Este taller será una introducción a Wordpress: te acompañaremos en tus primeros pasos y te mostraremos cómo seguir por tu cuenta a partir de ahí.",
+            "completed": true
+        },
+        {
+            "id": "introtonpm",
+            "title": "Workshop: Introducción a npm",
+            "desc": "Node.js ha revolucionado la manera de crear aplicaciones JavaScript gracias, en gran parte, a npm, su gestor de paquetes. npm (Node Package Manager) permite consumir y distribuir módulos JavaScript a través de su registro, que hoy en día cuenta con más de 350.000 paquetes. El registro de npm es una colección pública de paquetes de código abierto para Node.js, aplicaciones front-end, aplicaciones móviles, robots, routers, y un sinfín de necesidades de la comunidad JavaScript. En este taller Kat Marchán, ingeniera en npm, Inc., nos enseñará qué es npm, cómo utilizarlo, cómo publicar nuestros propios paquetes, y cómo sacarle provecho a las otras herramientas que npm provee.",
+            "completed": true
+        },
+        {
+            "id": "htmlgamestalk",
+            "title": "Charla: Introducción al taller de videojuegos en HTML5",
+            "desc": "Este evento será una introducción al Taller de videojuegos en HTML5 del próximo sábado 4 de marzo, en el que Belén Albeza nos enseñará y guiará en la creación de un videojuego desde cero. El evento constará de dos partes: en la primera, hablaremos de por qué hacer un videojuego en HTML5, herramientas para hacer videojuegos en HTML5, y conceptos básicos de programación de videojuegos 2D. En la segunda parte refrescaremos conceptos básicos de JavaScript necesarios para el taller, como new, this, funciones, arrays, etc.",
+            "completed": true
+        },
+        {
+            "id": "htmlgames",
+            "title": "Workshop: Videojuegos en HTML5",
+            "desc": "Los videojuegos HTML5 nos permiten publicar juegos en la web a los que cualquiera puede acceder y jugar sin necesidad de instalar ningún software adicional: tan sólo es necesario un navegador de internet. Hay muchas herramientas para desarrollar juegos HTML5; una muy popular es Phaser, un framework JavaScript para videojuegos en 2D que cuenta con cientos de videojuegos gratuitos publicados. ¡Incluso Iron Maiden han promocionado su último álbum con un videojuego desarrollado con Phaser! En este taller Belén Albeza nos enseñará y guiará en la creación, paso a paso, de un videojuego de plataformas, utilizando Phaser.",
+            "completed": false
+        }
+    ]
+}

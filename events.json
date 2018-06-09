@@ -1,0 +1,319 @@
+{
+    "ladiesjs": {
+        "cover": "img/events/ladiesjs/ladiesjs1.jpg",
+        "pics": [
+            {
+                "url": "img/events/ladiesjs/ladiesjs1.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/ladiesjs/ladiesjs2.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/ladiesjs/ladiesjs3.jpg",
+                "cssClass": "col-sm-4"
+            }
+        ]
+    },
+    "jsforbeginners": {
+        "cover": "img/events/js-for-beginners/js-for-beginners2.jpg",
+        "pics": [
+            {
+                "url": "img/events/js-for-beginners/js-for-beginners1.jpg",
+                "cssClass": "col-sm-12"
+            },
+            {
+                "url": "img/events/js-for-beginners/js-for-beginners2.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/js-for-beginners/js-for-beginners3.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/js-for-beginners/js-for-beginners4.jpg",
+                "cssClass": "col-sm-12"
+            }
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "http://www.meetup.com/es-ES/AdaBcnJS/events/226823609/"
+            },
+            {
+                "name": "ti.to",
+                "url": "https://ti.to/adajs-bcn/javascript-101"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/javascript-101"
+            }
+        ]
+    },
+    "webdevpart1": {
+        "cover": "img/events/web-dev-part1/web-dev-part1-4.jpg",
+        "pics": [
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-1.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-2.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-3.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-4.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-6.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-7.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-8.jpg",
+                "cssClass": "col-sm-4"
+            }            
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "http://www.meetup.com/es-ES/AdaBcnJS/events/229363514/"
+            },
+            {
+                "name": "ti.to",
+                "url": "https://ti.to/adajs-bcn/workshop-web-development-html-javascript-jquery-part-i"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/web-development-part-1"
+            },
+            {
+                "name": "CriticadaJS",
+                "url": "http://ada.barcelonajs.org/Workshops/criticadaJS/"
+            }
+        ]
+    },
+    "webdevpart2": {
+        "cover": "img/events/web-dev-part2/web-dev-part2-2.jpg",
+        "pics": [
+            {
+                "url": "img/events/web-dev-part2/web-dev-part2-1.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/web-dev-part2/web-dev-part2-2.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/web-dev-part2/web-dev-part2-3.jpg",
+                "cssClass": "col-sm-4"
+            }
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/230448390/"
+            },
+            {
+                "name": "ti.to",
+                "url": "https://ti.to/adajs-bcn/workshop-web-development-html-javascript-jquery-part-ii"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/blob/master/Workshops/web-development-part-2"
+            },
+            {
+                "name": "CriticadaJS",
+                "url": "http://ada.barcelonajs.org/Workshops/criticadaJS/"
+            }
+        ]
+    },
+    "introtogit": {
+        "cover": "img/events/intro-to-git/intro-to-git-1.jpg",
+        "pics": [
+            {                
+                "url": "img/events/intro-to-git/intro-to-git-1.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/intro-to-git/intro-to-git-2.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/intro-to-git/intro-to-git-3.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/intro-to-git/intro-to-git-4.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/intro-to-git/intro-to-git-5.jpg",
+                "cssClass": "col-sm-12"
+            }
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/234901734/"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/introduction-to-git/"
+            }
+        ]
+    },
+    "introtowp": {
+        "cover": "img/events/intro-to-wp/intro-to-wp-2.jpg",
+        "pics": [
+            {
+                "url": "img/events/intro-to-wp/intro-to-wp-1.jpg",
+                "cssClass": "col-sm-12"
+            },
+            {
+                "url": "img/events/intro-to-wp/intro-to-wp-2.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-to-wp/intro-to-wp-3.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-to-wp/intro-to-wp-4.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-to-wp/intro-to-wp-5.jpg",
+                "cssClass": "col-sm-6"
+            }
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/234927681/"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/introduction-to-wp/"
+            },
+            {
+                "name": "CDMon Sign in",
+                "url": "https://www.cdmon.com/es/hosting/hosting-de-prueba/"
+            },
+            {
+                "name": "CDMon Setup",
+                "url": "https://docs.google.com/document/d/1qDoEUNs-BRo395T0VtpZvJUmne3neFStusJ0V_v-ufo/"
+            }
+        ]
+    },
+    "introtonpm": {
+        "cover": "img/events/intro-to-npm/intro-to-npm-4.jpg",
+        "pics": [
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-1.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-2.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-6.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-3.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-4.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-to-npm/intro-to-npm-5.jpg",
+                "cssClass": "col-sm-12"
+            }
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/236920001"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/introduction-to-npm/"
+            }
+        ]
+    },
+    "htmlgamestalk": {
+        "cover": "img/events/html-games/html-games-6.jpg",
+        "pics": [
+            {
+                "url": "img/events/html-games/html-games-4.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/html-games/html-games-2.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/html-games/html-games-3.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/html-games/html-games-5.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/html-games/html-games-6.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/html-games/html-games-1.jpg",
+                "cssClass": "col-sm-12"
+            }
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/237412624/"
+            },
+            {
+                "name": "Slides",
+                "url": "https://belen-albeza.github.io/intro-gamedev/#1"
+            },
+            {
+                "name": "Tutorial",
+                "url": "https://mozdevs.github.io/js-for-gamedev/es/"
+            }
+        ]
+    },
+    "htmlgames": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/237471558/"
+            
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/pchiwan/ada/tree/master/Workshops/html5-games"
+            },
+            {
+                "name": "Slides",
+                "url": "https://mozdevs.github.io/html5-games-workshop/en/guides/platformer/initialise-phaser/"
+            }
+        ]
+    }
+}

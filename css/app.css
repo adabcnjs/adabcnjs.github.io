@@ -1,0 +1,122 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cabin Sketch";
+  text-transform: none;
+}
+body {
+  font-family: Lato;
+}
+.gallery a img:hover,
+.navbar-nav a img:hover,
+.gallery a img:focus,
+.navbar-nav a img:focus,
+.gallery a img:active,
+.navbar-nav a img:active {
+  cursor: pointer;
+  box-shadow: 0 0 10px 3px #5EA0B0;
+  border-radius: 20px;
+}
+@media (min-width: 768px) {
+  header .container {
+    padding-top: 150px;
+  }
+  .navbar-fixed-top {
+    padding: 10px 0;
+  }
+}
+.ada {
+  font-family: Comfortaa!important;
+  text-transform: lowercase!important;
+  font-weight: 300!important;
+}
+.ada strong {
+  text-transform: uppercase!important;
+  font-weight: 700!important;
+}
+.ada-intro {
+  font-size: 30px;
+}
+.logo {
+  width: 80%;
+}
+.navbar {
+  font-family: Lato;
+}
+.navbar-default {
+  background-color: #9BDAE1;
+}
+.navbar-default .navbar-nav li a:hover {
+  color: #5EA0B0;
+}
+.navbar-default .navbar-nav li.active a {
+  border-radius: 10px;
+}
+.navbar-default .navbar-nav li.active a:hover,
+.navbar-default .navbar-nav li.active a:focus {
+  border-radius: 10px;
+}
+.navbar-default .navbar-nav .change-lang a {
+  background-color: transparent;
+  padding-left: 5px;
+}
+.navbar-default .navbar-nav .change-lang a:hover,
+.navbar-default .navbar-nav .change-lang a:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav .change-lang a img {
+  width: 20px;
+}
+.navbar-default .navbar-nav .change-lang a img:hover,
+.navbar-default .navbar-nav .change-lang a img:focus,
+.navbar-default .navbar-nav .change-lang a img:active {
+  border-radius: 100px !important;
+}
+#about .portfolio-link img {
+  width: 100px;
+}
+.member {
+  margin-bottom: 25px;
+}
+.event-title {
+  font-weight: bold;
+  margin-top: 10px;
+  min-height: 42px;
+}
+.bcnjs img {
+  width: 20%;
+}
+.meetup-logo {
+  width: 30%;
+}
+.coming-soon {
+  position: absolute;
+  pointer-events: none;
+  top: 45%;
+  width: 100%;
+  -ms-transform: rotate(-15deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-15deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-15deg);
+}
+.coming-soon span {
+  font-family: "Special Elite", cursive;
+  font-weight: bold;
+  color: crimson;
+  font-size: 24px;
+  border: 2px dashed crimson;
+  padding: 5px 10px;
+}
+.justify {
+  text-align: justify;
+}
+.center {
+  text-align: center;
+}
+.portfolio-link .img-thumbnail {
+  max-height: 207px;
+}

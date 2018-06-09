@@ -1,0 +1,341 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AdaJS Barcelona is a women community for promote and support the growth of the female at IT sector">
+    <meta name="author" content="Isabel Cabezas Martín @isabelcabezasm">
+
+    <title>adaJS Barcelona community</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand ada" href="#page-top">
+                    ada<strong>JS</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio" data-bind="text: res().menuEvents"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about" data-bind="text: res().menuAboutUs"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact" data-bind="text: res().menuContact"></a>
+                    </li>
+                    <li class="change-lang">
+                        <a href="#" data-bind="click: function () { changeLang('es'); }">
+                            <img class="img-responsive" src="img/cas.png" />
+                        </a>
+                    </li>
+                    <li class="change-lang">
+                        <a href="#" data-bind="click: function () { changeLang('ca'); }">
+                            <img class="img-responsive" src="img/cat.png" />
+                        </a>
+                    </li>
+                    <li class="change-lang">
+                        <a href="#" data-bind="click: function () { changeLang('en'); }">
+                            <img class="img-responsive" src="img/eng.png" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive logo" src="img/logo.png" alt="">
+                    <div class="intro-text">
+                        <hr class="star-light">
+                        <span class="skills">JavaScript - Women - Barcelona</span>
+                        <br />
+                        <br />
+                        <br />
+                        <p>
+                            <span class="ada-intro ada">ada<strong>JS</strong></span>
+                            <span data-bind="html: res().introPart1"></span>
+                        </p>
+                        <p data-bind="html: res().introPart2"></p>
+                        <p data-bind="text: res().introPart3"></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 data-bind="text: res().menuEvents"></h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row" data-bind="foreach: { data: res().events, as: 'event' }">
+                <!-- ko if: $index() > 0 && $index() % 3 === 0 -->
+                <div class="clearfix"></div>
+                <!-- /ko -->
+                <div class="col-sm-4 portfolio-item center">
+                    <a class="portfolio-link" data-toggle="modal" data-bind="attr: { 'href': '#' + event.id }">
+                        <!-- ko if: !event.completed -->
+                        <div class="coming-soon">
+                            <span data-bind="text: $parent.res().titleComingSoon"></span>
+                        </div>
+                        <!-- /ko -->
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-responsive img-thumbnail" data-bind="attr: { 'src': $parent.getEventCover(event.id), 'alt': event.title }">                        
+                    </a>
+                    <div class="col-sm-12 text-center event-title">
+                        <span data-bind="text: event.title"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 data-bind="text: res().menuAboutUs"></h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3 data-bind="text: res().aboutCurrent"></h3>
+                </div>
+            </div>
+            <br/>
+            <!-- current members -->
+            <div class="row" data-bind="foreach: { data: members().current, as: 'member' }">
+                <!-- ko if: $index() > 0 && $index() % 3 === 0 -->
+                <div class="clearfix"></div>
+                <!-- /ko -->
+                <div class="member col-sm-2" data-bind="css: { 'col-sm-offset-3': $index() % 3 === 0 }">
+                    <a data-bind="attr: { 'href': member.twitter }" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <img data-bind="attr: { 'src': member.picture, 'alt': member.name }"  class="img-responsive img-circle img-centered">
+                    </a>
+                    <div class="col-sm-12 text-center">
+                        <span data-bind="text: member.name"></span>
+                    </div>
+                </div>                
+            </div>
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3 data-bind="text: res().aboutFounders"></h3>
+                </div>
+            </div>
+            <br/>
+            <!-- past members -->
+            <div class="row" data-bind="foreach: { data: members().past, as: 'member' }">                
+                <div class="member col-sm-2" data-bind="css: { 'col-sm-offset-3': $index() % 3 === 0 }">
+                    <a data-bind="attr: { 'href': member.twitter }" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <img data-bind="attr: { 'src': member.picture, 'alt': member.name }" class="img-responsive img-circle img-centered">
+                    </a>
+                    <div class="col-sm-12 text-center">
+                        <span data-bind="text: member.name"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 data-bind="text: res().titleContact"></h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div id="mc_embed_signup" class="col-lg-8 col-lg-offset-2">
+                    <p class="text-center">
+                        <span data-bind="text: res().contactText"></span>&nbsp;
+                        <a href="mailto:barcelona@adajs.com">barcelona@adajs.com</a>.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3 data-bind="text: res().titleSocial"></h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="http://twitter.com/adaBcnJS" target="_blank" class="btn-social btn-outline" title="Twitter">
+                                    <i class="fa fa-fw fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/adabcnJS" target="_blank" class="btn-social btn-outline" title="Facebook">
+                                    <i class="fa fa-fw fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/adabcnjs" target="_blank" class="btn-social btn-outline" title="Github">
+                                    <i class="fa fa-fw fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plnkr.co/users/adabcnjs" target="_blank" class="btn-social btn-outline" title="Plunker">
+                                    <i class="fa fa-fw fa-arrow-down"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>
+                            <span data-bind="text: res().joinMeetup"></span>
+                            <br/><br/>
+                            <a href="http://www.meetup.com/AdaBcnJS/?_locale=es-ES" target="_blank">
+                                <img class="meetup-logo" src="img/meetup_logo.png" alt="Meetup"/>
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; <span class="ada">ada<strong>JS</strong>&nbsp;</span><span data-bind="text: year"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals: dynamically constructed -->
+    <div data-bind="foreach: { data: res().events, as: 'event' }">        
+        <div class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-bind="attr: { 'id': event.id }">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <div class="modal-body">
+                                <h2 data-bind="text: event.title"></h2>
+                                <hr class="star-primary">
+                                <div class="col-sm-12" data-bind="if: !!event.desc">
+                                    <h4 data-bind="text: $parent.res().titleEventDesc"></h4>
+                                    <p class="text-center" data-bind="text: event.desc"></p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <ul class="list-inline item-details" data-bind="foreach: { data: $parent.getEventLinks(event.id), as: 'link' }">
+                                        <li>
+                                            <strong>
+                                            <a data-bind="attr: { 'href': link.url }, text: link.name" target="_blank"></a>
+                                        </strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="row gallery" data-bind="foreach: { data: $parent.getEventPics(event.id), as: 'img' }">
+                                    <div data-bind="attr: { 'class': img.cssClass }">
+                                        <a data-bind="attr: { 'href': img.url }" target="_blank">
+                                            <img data-bind="attr: { 'src': img.url, 'alt': event.title }" class="img-responsive img-thumbnail">
+                                        </a>
+                                        <br/>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery Version 2.2.2 -->
+    <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Knockout -->
+    <script type="text/javascript" src="js/knockout-3.4.0.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script type="text/javascript" src="js/freelancer.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+
+    <!-- Our own stuff -->
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

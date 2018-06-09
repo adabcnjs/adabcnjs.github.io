@@ -1,0 +1,75 @@
+{
+    "title": "AdaJS by BarcelonaJS",
+    "menuEvents": "Events",
+    "menuAboutUs": "About us",
+    "menuContact": "Contact",
+    "introPart1": "is a community of women who meet periodically in Barcelona, with the goal of promoting and supporting the growth of the female sector in the field of information technology (IT) through <strong>JavaScript</strong> and web development in general.<br>Therefore our character is eminently practical and educational.",
+    "introPart2": "What do we do? We organize meetings and free workshops in which we give our members training in web development techniques and <strong>JavaScript</strong>.",
+    "introPart3": "There is no prerequisite to become a member of this group. All you need is to be willing to participate!",
+    "titleContact": "Contact us",
+    "contactText": "If you have any comments, requests or proposals, don't hesitate to get in touch with us by email:",
+    "aboutFounders": "Founding members",
+    "aboutCurrent": "Active members",
+    "titleUpcoming": "Upcoming events",
+    "titleSocial": "Social networks",
+    "titleBelongs": "is part of",
+    "titleComingSoon": "Coming soon",
+    "joinMeetup": "Join our Meetup",
+    "titleEventDesc": "Event description",
+    "events": [
+        {
+            "id": "ladiesjs",
+            "title": "LadiesJS: Introduction to JavaScript",
+            "desc": "",
+            "completed": true
+        },
+        {
+            "id": "jsforbeginners",
+            "title": "Workshop: JavaScript for beginners",
+            "desc": "Did you know that the first programmer was a woman? (Ada Lovelace, our \"patron\"). Did you know that the European Commission have announced that Europe will be facing a shortfall of 900,000 IT professionals by the year 2020? Are you keen on internet and technology? You'd like to know programming but think it's very difficult? Not at all! This will be a 3-hour hands-on workshop during which we'll help you learn, by yourself and at your own pace, the basics of programming with today's trendiest language: JavaScript.",
+            "completed": true            
+        },
+        {
+            "id": "webdevpart1",
+            "title": "Workshop: Web development (HTML + JavaScript + jQuery), Part I",
+            "desc": "In our first workshop we did an introduction to today's trendiest programming language: JavaScript. Did you know that JavaScript is also the programming language of the web? In this workshop we'll learn the basics of HTML, what's the DOM, and how we can interact with it thanks to JavaScript. We'll also do an introduction to jQuery, a JavaScript library created in 2006 that's changed web programming forever. Do you want to create your first web application, and get a taste of what you'll be capable of with JavaScript? Don't miss it!",
+            "completed": true            
+        },
+        {
+            "id": "webdevpart2",
+            "title": "Workshop: Web development (HTML + JavaScript + jQuery), Part II",
+            "desc": "In the first part of the web development workshop we learnt the basics of HTML and the DOM, and we also did an introduction to CSS and jQuery, a JavaScript library created in 2006 that's changed web programming forever. In this second part we'll keep developing our first web application with jQuery, and we'll be loading data dynamically by means of AJAX requests to a public API. Don't worry if you missed the workshop's first part, you're also welcome to join! We'll provide you with the necessary material and we'll be there to give you a hand the whole time.",
+            "completed": true            
+        },
+        {
+            "id": "introtogit",
+            "title": "Workshop: Intro to Git",
+            "desc": "Git is a version control system created by Linus Torvalds that is used for software development and other version control tasks. As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows. It allows groups of people to work on the same documents at the same time, without stepping on each other's toes. Nowadays Git is an indispensable tool for collaborative open-source projects. In this workshop we'll learn the philosophy of working with code repositories, how Git works, and how to use Git on the command-line.",
+            "completed": true
+        },
+        {
+            "id": "introtowp",
+            "title": "Workshop: Intro to WordPress",
+            "desc": "Wordpress is the world's most popular and commonly used CMS (Content Management System). It's used for creating corporate websites, as well as personal websites, or standard blogs. The popularity of WordPress is largely due to its vast array of available plugins, thanks to its enormous user and developer community. This workshop will be an introduction to Wordpress: we'll take you through your first steps and show you how to take it on your own from there.",
+            "completed": true
+        },
+        {
+            "id": "introtonpm",
+            "title": "Workshop: Intro to npm",
+            "desc": "Node.js has revolutionised the way to create JavaScript applications, largely thanks to npm, its package manager. npm (Node Package Manager) allows users to consume and distribute JavaScript modules through their registry, which nowadays holds more than 350,000 packages. The npm Registry is a public collection of packages of open-source code for Node.js, front-end web apps, mobile apps, robots, routers, and countless other needs of the JavaScript community. In this workshop Kat Marchán, engineer at npm, Inc., will teach us what is npm, how to use it, how to publish our own packages, and how to take advantage of the other tools that npm provides.",
+            "completed": true
+        },
+        {
+            "id": "htmlgamestalk",
+            "title": "Talk: Intro to the HTML5 games workshop",
+            "desc": "",
+            "completed": true
+        },
+        {
+            "id": "htmlgames",
+            "title": "Workshop: HTML5 games",
+            "desc": "",
+            "completed": false
+        }
+    ]
+}
