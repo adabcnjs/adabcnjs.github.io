@@ -31,9 +31,9 @@
             "class": "col-sm-2"
         },
         {
-            "name": "Carmen Ansio",
-            "twitter": "https://twitter.com/carmenansio",
-            "picture": "img/members/carmen-a.jpg",
+            "name": "Paqui Calabria",
+            "twitter": "https://twitter.com/zurribulle",
+            "picture": "img/members/paqui.jpg",
             "class": "col-sm-2"
         }
     ],
@@ -55,6 +55,12 @@
             "twitter": "https://twitter.com/laMosqui",
             "picture": "img/members/laura.jpg",
             "class": "col-sm-2"
+        },
+        {
+            "name": "Carmen Ansio",
+            "twitter": "https://twitter.com/carmenansio",
+            "picture": "img/members/carmen-a.jpg",
+            "class": "col-sm-2 col-sm-offset-5"
         }
     ]
 }
