@@ -288,7 +288,7 @@
                                 <hr class="star-primary">
                                 <div class="col-sm-12" data-bind="if: !!event.desc">
                                     <h4 data-bind="text: $parent.res().titleEventDesc"></h4>
-                                    <p class="text-center" data-bind="text: event.desc"></p>
+                                    <div class="text-center" data-bind="html: event.desc"></div>
                                 </div>
                                 <div class="col-sm-12">
                                     <ul class="list-inline item-details" data-bind="foreach: { data: $parent.getEventLinks(event.id), as: 'link' }">

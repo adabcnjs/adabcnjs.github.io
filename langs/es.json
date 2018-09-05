@@ -26,49 +26,85 @@
         {
             "id": "jsforbeginners",
             "title": "Workshop: JavaScript para principiantes",
-            "desc": "¿Sabías que el primer programador fue una mujer? (Ada Lovelace, nuestra \"patrona\"). ¿Sabías que la UE prevee que en 5 años se creen 900.000 puestos de trabajo relacionados con las TIC? ¿Te atraen internet y la tecnología? ¿Te gustaría saber programar pero crees que es muy difícil? ¡En absoluto! Este será un taller práctico de 3 horas en el cual te ayudaremos a aprender, por ti misma y a tu ritmo, los principios de la programación con el lenguaje de moda: JavaScript.",
+            "desc": "<p>¿Sabías que el primer programador fue una mujer? (<a href='https://es.wikipedia.org/wiki/Ada_Lovelace' href='_blank'>Ada Lovelace</a>, nuestra \"patrona\").</p><p>¿Sabías que <a href='http://www.mundiario.com/articulo/sociedad/faltan-mujeres-carreras-tecnologicas-pesar-ser-carreras-futuro/20151111134854049101.html' href='_blank'>la UE prevee que en 5 años se creen 900.000 puestos de trabajo relacionados con las TIC?</a></p><p>¿Te atraen internet y la tecnología? ¿Te gustaría saber programar pero crees que es muy difícil? ¡En absoluto! Este será un taller práctico de 3 horas en el cual te ayudaremos a aprender, por ti misma y a tu ritmo, los principios de la programación con el lenguaje de moda: JavaScript.</p>",
             "completed": true
         },
         {
             "id": "webdevpart1",
             "title": "Workshop: Programación web (HTML + JavaScript + jQuery), Parte I",
-            "desc": "En nuestro primer workshop hicimos una introducción al lenguaje de programación de moda: JavaScript. ¿Sabías que además JavaScript es el lenguaje de programación de la web? En este taller aprenderemos las bases de HTML, qué es el DOM, y cómo podemos interactuar con el mismo gracias a JavaScript. También haremos una introducción a jQuery, una librería de JavaScript creada en 2006 que ha cambiado para siempre la programación web. ¿Quieres crear tu primera aplicación web, y ver de qué otras cosas puedes ser capaz con JavaScript? ¡No te lo pierdas!",
+            "desc": "<p>En nuestro primer workshop hicimos una introducción al lenguaje de programación de moda: JavaScript. ¿Sabías que además JavaScript es <a href='http://tomtunguz.com/javascript/' href='_blank'>el lenguaje de programación de la web</a>?</p><p>En este taller aprenderemos las bases de HTML, qué es el DOM, y cómo podemos interactuar con el mismo gracias a JavaScript. También haremos una introducción a jQuery, una librería de JavaScript creada en 2006 que ha cambiado para siempre la programación web.</p><p>¿Quieres crear tu primera aplicación web, y ver de qué otras cosas puedes ser capaz con JavaScript? ¡No te lo pierdas!</p>",
             "completed": true
         },
         {
             "id": "webdevpart2",
             "title": "Workshop: Programación web (HTML + JavaScript + jQuery), Parte II",
-            "desc": "En la primera parte del taller de desarrollo web aprendimos las bases de HTML y el DOM, y también hicimos una introducción a CSS y a jQuery, una librería de JavaScript creada en 2006 que ha cambiado para siempre la programación web. En esta segunda parte seguiremos desarrollando nuestra primera aplicación web con jQuery, y cargaremos datos dinámicamente mediante consultas AJAX a una API pública. No pasa nada si te perdiste la primera parte del taller, ¡también eres bienvenida! Te daremos el material necesario y estaremos ahí para echarte una mano en todo momento.",
+            "desc": "<p>En la primera parte del taller de desarrollo web aprendimos las bases de HTML y el DOM, y también hicimos una introducción a CSS y a jQuery, una librería de JavaScript creada en 2006 que ha cambiado para siempre la programación web.</p><p>En esta segunda parte seguiremos desarrollando nuestra primera aplicación web con jQuery, y cargaremos datos dinámicamente mediante consultas AJAX a una API pública.</p><p>No pasa nada si te perdiste la primera parte del taller, ¡también eres bienvenida! Te daremos el material necesario y estaremos ahí para echarte una mano en todo momento.</p>",
             "completed": true
         },
         {
             "id": "introtogit",
             "title": "Workshop: Introducción a Git",
-            "desc": "Git es un sistema de control de versiones creado por Linus Torvalds que se utiliza para el desarrollo de software y otras tareas de control de versiones. Como sistema de control de versiones distribuido, está dirigido a la velocidad, integridad de los datos, y el apoyo a los flujos de trabajo distribuidos y no lineales. Permite a grupos de personas trabajar en los mismos documentos al mismo tiempo sin pisarse mutuamente. Hoy en día Git es una herramienta indispensable para los proyectos colaborativos de código abierto. En este taller aprenderemos la filosofía de trabajo con repositorios de código, cómo funciona Git, y a utilizar Git desde la consola de comandos.",
+            "desc": "<p><a href='https://es.wikipedia.org/wiki/Git' target='_blank'>Git</a> es un sistema de control de versiones creado por Linus Torvalds que se utiliza para el desarrollo de software y otras tareas de control de versiones. Como sistema de control de versiones distribuido, está dirigido a la velocidad, integridad de los datos, y el apoyo a los flujos de trabajo distribuidos y no lineales. Permite a grupos de personas trabajar en los mismos documentos al mismo tiempo sin pisarse mutuamente.</p><p>Hoy en día Git es una herramienta indispensable para los proyectos colaborativos de código abierto. En este taller aprenderemos la filosofía de trabajo con repositorios de código, cómo funciona Git, y a utilizar Git desde la consola de comandos.</p>",
             "completed": true
         },
         {
             "id": "introtowp",
             "title": "Workshop: Introducción a WordPress",
-            "desc": "WordPress es el sistema de gestión de contenidos (CMS por sus siglas en inglés: Content Management System) más popular y utilizado del mundo. Se utiliza tanto para la creación de webs corporativas, como de webs personales o blogs. Su popularidad radica principalmente en la gran cantidad de plugins disponibles, gracias a su enorme comunidad de usuarios y desarrolladores. Este taller será una introducción a Wordpress: te acompañaremos en tus primeros pasos y te mostraremos cómo seguir por tu cuenta a partir de ahí.",
+            "desc": "<p><a href='https://es.wikipedia.org/wiki/WordPress' target='_blank'>WordPress</a> es el sistema de gestión de contenidos (CMS por sus siglas en inglés: Content Management System) más popular y utilizado del mundo. Se utiliza tanto para la creación de webs corporativas, como de webs personales o blogs. Su popularidad radica principalmente en la gran cantidad de plugins disponibles, gracias a su enorme comunidad de usuarios y desarrolladores.</p><p>Este taller será una introducción a Wordpress: te acompañaremos en tus primeros pasos y te mostraremos cómo seguir por tu cuenta a partir de ahí.</p>",
             "completed": true
         },
         {
             "id": "introtonpm",
             "title": "Workshop: Introducción a npm",
-            "desc": "Node.js ha revolucionado la manera de crear aplicaciones JavaScript gracias, en gran parte, a npm, su gestor de paquetes. npm (Node Package Manager) permite consumir y distribuir módulos JavaScript a través de su registro, que hoy en día cuenta con más de 350.000 paquetes. El registro de npm es una colección pública de paquetes de código abierto para Node.js, aplicaciones front-end, aplicaciones móviles, robots, routers, y un sinfín de necesidades de la comunidad JavaScript. En este taller Kat Marchán, ingeniera en npm, Inc., nos enseñará qué es npm, cómo utilizarlo, cómo publicar nuestros propios paquetes, y cómo sacarle provecho a las otras herramientas que npm provee.",
+            "desc": "<p><a href='https://nodejs.org/es/' target='_blank'>Node.js</a> ha revolucionado la manera de crear aplicaciones JavaScript gracias, en gran parte, a npm, su gestor de paquetes. npm (Node Package Manager) permite consumir y distribuir módulos JavaScript a través de su registro, que hoy en día cuenta con más de 350.000 paquetes. El registro de npm es una colección pública de paquetes de código abierto para Node.js, aplicaciones front-end, aplicaciones móviles, robots, routers, y un sinfín de necesidades de la comunidad JavaScript.</p><p>En este taller Kat Marchán, ingeniera en <a href='https://www.npmjs.com' target='_blank'>npm, Inc.</a>, nos enseñará qué es npm, cómo utilizarlo, cómo publicar nuestros propios paquetes, y cómo sacarle provecho a las otras herramientas que npm provee.</p>",
             "completed": true
         },
         {
-            "id": "htmlgamestalk",
+            "id": "introhtmlgames",
             "title": "Charla: Introducción al taller de videojuegos en HTML5",
-            "desc": "Este evento será una introducción al Taller de videojuegos en HTML5 del próximo sábado 4 de marzo, en el que Belén Albeza nos enseñará y guiará en la creación de un videojuego desde cero. El evento constará de dos partes: en la primera, hablaremos de por qué hacer un videojuego en HTML5, herramientas para hacer videojuegos en HTML5, y conceptos básicos de programación de videojuegos 2D. En la segunda parte refrescaremos conceptos básicos de JavaScript necesarios para el taller, como new, this, funciones, arrays, etc.",
+            "desc": "<p>Este evento será una introducción al Taller de videojuegos en HTML5 del próximo sábado 4 de marzo, en el que Belén Albeza nos enseñará y guiará en la creación de un videojuego desde cero.</p><p>El evento constará de dos partes: en la primera, hablaremos de por qué hacer un videojuego en HTML5, herramientas para hacer videojuegos en HTML5, y conceptos básicos de programación de videojuegos 2D. En la segunda parte refrescaremos conceptos básicos de JavaScript necesarios para el taller, como new, this, funciones, arrays, etc.</p>",
             "completed": true
         },
         {
             "id": "htmlgames",
             "title": "Workshop: Videojuegos en HTML5",
-            "desc": "Los videojuegos HTML5 nos permiten publicar juegos en la web a los que cualquiera puede acceder y jugar sin necesidad de instalar ningún software adicional: tan sólo es necesario un navegador de internet. Hay muchas herramientas para desarrollar juegos HTML5; una muy popular es Phaser, un framework JavaScript para videojuegos en 2D que cuenta con cientos de videojuegos gratuitos publicados. ¡Incluso Iron Maiden han promocionado su último álbum con un videojuego desarrollado con Phaser! En este taller Belén Albeza nos enseñará y guiará en la creación, paso a paso, de un videojuego de plataformas, utilizando Phaser.",
+            "desc": "<p>Los videojuegos HTML5 nos permiten publicar juegos en la web a los que cualquiera puede acceder y jugar sin necesidad de instalar ningún software adicional: tan sólo es necesario un navegador de internet.</p><p>Hay muchas herramientas para desarrollar juegos HTML5; una muy popular es <a href='https://phaser.io' target='_blank'>Phaser</a>, un framework JavaScript para videojuegos en 2D que cuenta con <a href='https://phaser.io/games' target='_blank'>cientos de videojuegos gratuitos publicados</a>. ¡Incluso Iron Maiden han promocionado su último álbum con un <a href='http://speedoflight.ironmaiden.com/' target='_blank'>videojuego</a> desarrollado con Phaser!</p><p>En este taller Belén Albeza nos enseñará y guiará en la creación, paso a paso, de un videojuego de plataformas, utilizando Phaser.</p>",
+            "completed": true
+        },
+        {
+            "id": "introtopython",
+            "title": "Workshop: Introducción a Python",
+            "desc": "<p>Si no conoces Python -<a href='https://es.wikipedia.org/wiki/Python' target='_blank'>creado en 1991 por Guido van Rossum</a>-, tal vez te sorprenderá saber que no tan sólo es <a href='http://blog.codeeval.com/codeevalblog/2016/2/2/most-popular-coding-languages-of-2016' target='_blank'>uno de los lenguajes de programación más populares hoy en día</a>, sino que <a href='http://pypl.github.io/PYPL.html' target='_blank'>su popularidad no ha dejado de crecer en los últimos años</a>.</p><p>Efectivamente, nos alejamos de JavaScript pero no demasiado, puesto que Python comparte varias características con el primero. Python es un lenguaje interpretado, multiparadigma, multiplataforma, con licencia de código abierto, y es extremadamente versátil, lo que lo convierte en la elección de muchas startups.</p><p>Este taller de introducción, que nos impartirá nuestra compañera Elena, será fundamentalmente práctico, y no requiere ningún conocimiento previo.</p>",
+            "completed": true
+        },
+        {
+            "id": "es6typescript",
+            "title": "Workshop: Typescript y ES6",
+            "desc": "<p><a href='https://www.typescriptlang.org/' target='_blank'>Typescript</a>, un lenguaje de programación de código abierto desarrollado y mantenido por Microsoft, es en realidad un superconjunto de ES2015/ES6 (ECMAScript 6, la versión más reciente de JavaScript), que extiende su sintaxis. Para poder ser utilizado, Typescript debe ser transpilado a JavaScript.</p><p>Seguramente habrás oído a más de un desarrollador backend burlarse y/o menospreciar JavaScript por razones como no ser un lenguaje tipado, no ser orientado a objetos, etc.</p><p>Typescript se creó con el propósito de aportar a JavaScript características propias de lenguajes compilados como Java, C++, o C#, tales como tipado estático, orientación a objetos basada en clases, interfícies, enumeraciones, o tipos genéricos, lo que permite -entre otras cosas- una detección temprana de errores en tiempo de compilación.</p><p>En este taller, Paqui Calabria, Senior Frontend Developer en AXA Group Solutions, nos enseñará cómo Typescript nos permite desarrollar aplicaciones JavaScript con características del presente y el futuro.</p>",
+            "completed": true
+        },
+        {
+            "id": "vuejs",
+            "title": "Workshop: Vue.js",
+            "desc": "<p>Si estás al corriente de las últimas tendencias en desarrollo front-end habrás oído hablar de <a href='https://vuejs.org/' target='_blank'>Vue.js</a>, el framework de JavaScript progresivo.</p><p>Creado por <a href='https://twitter.com/youyuxi' target='_blank'>Evan You</a> después de trabajar para Google desarrollando AngularJS, Vue.js fue lanzando a principios de 2014 y desde entonces <a href='https://trends.google.com/trends/explore?q=vuejs' target='_blank'>su popularidad no ha dejado de crecer</a>.</p><p>Muchos desarrolladores comparan Vue.js con Angular y React y lo cierto es que reúne lo mejor de ambos: ligero, basado en componentes, poco dogmático, interfaz de usuario declarativa, templates HTML, depuración con hot-reloading y time-travel...</p><p>En este taller Núria Soriano, front-end developer en <a href='http://es.tviso.com/' target='_blank'>Tviso</a>, nos hará una introducción práctica al desarrollo de SPAs (single-page applications) con Vue.js.</p>",
+            "completed": true
+        },
+        {
+            "id": "handsones6",
+            "title": "Workshop: Hands on ES6",
+            "desc": "<p><a href='https://www.w3schools.com/js/js_es6.asp' target='_blank'>ES6/ES2015</a> es la 6ª edición de ECMAScript, la especificación de lenguaje implementada y estandarizada por JavaScript, publicada en 2015.</p><p>ES6 trajo consigo muchos cambios significativos a JavaScript (muchos de los cuales todavía no están soportados por todos los navegadores de internet): algunos interesantes, otros prácticos, y otros geniales, tales como funciones flecha, plantillas de texto, destructuración, promesas, y muchos más.</p><p>Este será un taller totalmente práctico, basado en katas y dirigido por Paqui Calabria, Senior Frontend Developer en AXA IT.</p>",
+            "completed": true
+        },
+        {
+            "id": "cleancode",
+            "title": "Workshop: Clean code",
+            "desc": "<p>Todo el mundo quiere programar, y cualquiera puede programar... pero ¿puede cualquiera entender nuestro código? Cada día más y más empresas empiezan a buscar desarrolladores que sigan buenas prácticas, y escribir código limpio es una de las buenas prácticas que deberíamos seguir.</p><p><a href='https://www.pearson.com/us/higher-education/program/Martin-Clean-Code-A-Handbook-of-Agile-Software-Craftsmanship/PGM63937.html' target='_blank'><i>Clean Code</i></a>, un libro escrito por Robert C. Martin en 2008, se ha convertido en una referencia para todo programador.</p><p>Esta será una sesión dirigida por Beatriz Martín, JavaScript Technical Lead at AXA IT, en la que compartiremos, comentaremos, e intentaremos dar sentido a qué se considera código limpio, y cómo empezar a escribirlo. 'Limpiaremos' código sucio de ejemplos prácticos y nos divertiremos haciéndolo.</p><p><i>\"Be smart. Be clean. Be simple. Ship! And keep a small roll of duct tape at the ready, and don't be afraid to use it.\"</i> - Uncle Bob (Robert C. Martin)</p><p><i>\"Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\"</i> - Martin Fowler</p>",
+            "completed": true
+        },
+        {
+            "id": "react",
+            "title": "Workshop: React",
+            "desc": "<p>Mantenida por Facebook, <a href='https://reactjs.org/' target='_blank'>React</a> es una librería de JavaScript de código abierto para crear interfaces de usuario. Su popularidad no ha dejado de crecer desde su lanzamiento en mayo de 2013, y actualmente la usan muchas grandes empresas tales como Airbnb, Atlassian, Netflix, Whatsapp, ¡o incluso Meetup! ¿Tienes curiosidad por saber más?</p><p>Este taller será una introducción a la magia de React ✨. Aprenderemos conceptos como JSX, Componentes, props, y manejo de estado, junto con buenas prácticas.</p><p>Nuestra ponente, Marta Bondyra, es Frontend Developer en Typeform y apasionada de las nuevas tecnologías. Empezó a trabajar en tecnología como ingeniera de backend en Nokia, pero pronto descubrió que la industria de las telecomunicaciones apenas conlleva magia visual así que se pasó al frontend y ahí se ha quedado. En su tiempo libre toca el ukulele o lee libros. La puedes encontrar llevando una bufanda de Gryffindor, aunque en su corazón sabe que realmente es una Slytherin.</p>",
             "completed": false
         }
     ]

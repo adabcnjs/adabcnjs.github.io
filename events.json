@@ -47,7 +47,7 @@
             },
             {
                 "name": "Github",
-                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/javascript-101"
+                "url": "https://github.com/adabcnjs/workshops/tree/master/javascript-101"
             }
         ]
     },
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Github",
-                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/web-development-part-1"
+                "url": "https://github.com/adabcnjs/workshops/tree/master/web-development-part-1"
             },
             {
                 "name": "CriticadaJS",
@@ -168,7 +168,7 @@
             },
             {
                 "name": "Github",
-                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/introduction-to-git/"
+                "url": "https://github.com/adabcnjs/workshops/tree/master/introduction-to-git/"
             }
         ]
     },
@@ -203,7 +203,7 @@
             },
             {
                 "name": "Github",
-                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/introduction-to-wp/"
+                "url": "https://github.com/adabcnjs/workshops/tree/master/introduction-to-wp/"
             },
             {
                 "name": "CDMon Sign in",
@@ -250,35 +250,35 @@
             },
             {
                 "name": "Github",
-                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/introduction-to-npm/"
+                "url": "https://github.com/adabcnjs/workshops/tree/master/introduction-to-npm/"
             }
         ]
     },
-    "htmlgamestalk": {
-        "cover": "img/events/html-games/html-games-6.jpg",
+    "introhtmlgames": {
+        "cover": "img/events/intro-html-games/intro-html-games-6.jpg",
         "pics": [
             {
-                "url": "img/events/html-games/html-games-4.jpg",
+                "url": "img/events/intro-html-games/intro-html-games-4.jpg",
                 "cssClass": "col-sm-4"
             },
             {
-                "url": "img/events/html-games/html-games-2.jpg",
+                "url": "img/events/intro-html-games/intro-html-games-2.jpg",
                 "cssClass": "col-sm-4"
             },
             {
-                "url": "img/events/html-games/html-games-3.jpg",
+                "url": "img/events/intro-html-games/intro-html-games-3.jpg",
                 "cssClass": "col-sm-4"
             },
             {
-                "url": "img/events/html-games/html-games-5.jpg",
+                "url": "img/events/intro-html-games/intro-html-games-5.jpg",
                 "cssClass": "col-sm-6"
             },
             {
-                "url": "img/events/html-games/html-games-6.jpg",
+                "url": "img/events/intro-html-games/intro-html-games-6.jpg",
                 "cssClass": "col-sm-6"
             },
             {
-                "url": "img/events/html-games/html-games-1.jpg",
+                "url": "img/events/intro-html-games/intro-html-games-1.jpg",
                 "cssClass": "col-sm-12"
             }
         ],
@@ -304,15 +304,122 @@
             {
                 "name": "Meetup",
                 "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/237471558/"
-            
             },
             {
                 "name": "Github",
-                "url": "https://github.com/pchiwan/ada/tree/master/Workshops/html5-games"
+                "url": "https://github.com/adabcnjs/workshops/tree/master/html5-games"
             },
             {
                 "name": "Slides",
                 "url": "https://mozdevs.github.io/html5-games-workshop/en/guides/platformer/initialise-phaser/"
+            }
+        ]
+    },
+    "introtopython": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/240039934/"
+            },
+            {
+                "name": "Github",
+                "url": ""
+            },
+            {
+                "name": "Slides",
+                "url": ""
+            }
+        ]
+    },
+    "es6typescript": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/240372056/"
+            },
+            {
+                "name": "Github",
+                "url": ""
+            },
+            {
+                "name": "Slides",
+                "url": ""
+            }
+        ]
+    },
+    "vuejs": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/241001569/"
+            },
+            {
+                "name": "Github",
+                "url": ""
+            },
+            {
+                "name": "Slides",
+                "url": ""
+            }
+        ]
+    },
+    "handsones6": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/250694187/"
+            },
+            {
+                "name": "Github",
+                "url": ""
+            },
+            {
+                "name": "Slides",
+                "url": ""
+            }
+        ]
+    },
+    "cleancode": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/251277658/"
+            },
+            {
+                "name": "Github",
+                "url": ""
+            },
+            {
+                "name": "Slides",
+                "url": ""
+            }
+        ]
+    },
+    "react": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/253384275/"
+            },
+            {
+                "name": "Github",
+                "url": ""
+            },
+            {
+                "name": "Slides",
+                "url": ""
             }
         ]
     }
