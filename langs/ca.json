@@ -8,11 +8,10 @@
     "introPart3": "No existeix cap mena de prerrequisit per entrar a formar part d'aquest grup, tant sols has de tenir ganes d'aprendre i de participar!",
     "titleContact": "Contacta amb nosaltres",
     "contactText": "Si tens qualsevol comentari, petició o proposta, no dubtis en posar-t'he en contacte amb nosaltres al email:",
-    "aboutFounders": "Les fundadores",
+    "aboutFounders": "Membres fundadores / Antigues membres",
     "aboutCurrent": "Membres en actiu",
     "titleUpcoming": "Propers esdeveniments",
     "titleSocial": "Xarxes socials",
-    "titleBelongs": "és part de",
     "titleComingSoon": "Properament",
     "joinMeetup": "Apunta't al nostre Meetup",
     "titleEventDesc": "Descripció de l'esdeveniment",
@@ -26,49 +25,85 @@
         {
             "id": "jsforbeginners",
             "title": "Workshop: JavaScript per a principiants",
-            "desc": "Sabies que el primer programador fou una dona? (Ada Lovelace, la nostra \"patrona\"). Sabies que la UE preveu que en 5 anys es creïn 900.000 llocs de treball relacionats amb les TIC? T'atreuen internet i la tecnologia? T'agradaria saber programar però creus que és molt difícil? En absolut! Aquest serà un taller pràctic de 3 hores en el qual t'ajudarem a aprendre, per tu mateixa i al teu ritme, els principis de la programació amb el llenguatge de moda: JavaScript.",
+            "desc": "<p>Sabies que el primer programador fou una dona? (<a href='https://ca.wikipedia.org/wiki/Ada_Lovelace' href='_blank'>Ada Lovelace</a>, la nostra \"patrona\").</p><p>Sabies que <<a href='http://www.mundiario.com/articulo/sociedad/faltan-mujeres-carreras-tecnologicas-pesar-ser-carreras-futuro/20151111134854049101.html' href='_blank'>la UE preveu que en 5 anys es creïn 900.000 llocs de treball relacionats amb les TIC</a>?</p><p>T'atreuen internet i la tecnologia? T'agradaria saber programar però creus que és molt difícil? En absolut! Aquest serà un taller pràctic de 3 hores en el qual t'ajudarem a aprendre, per tu mateixa i al teu ritme, els principis de la programació amb el llenguatge de moda: JavaScript.</p>",
             "completed": true
         },
         {
             "id": "webdevpart1",
             "title": "Workshop: Programació web (HTML + JavaScript + jQuery), Part I",
-            "desc": "En el nostre primer workshop varem fer una introducció al llenguatge de programació de moda: JavaScript. Sabies que a més JavaScript és el llenguatge de programació de la web? En aquest taller aprendrem les bases d'HTML, què és el DOM, i cóm podem interactuar amb el mateix gràcies a JavaScript. També farem una introducció a jQuery, una llibreria de JavaScript creada al 2006 que ha canviat per sempre la programació web. Vols crear la teva primera aplicació web, i veure de quines altres coses pot ser capaç amb JavaScript? No t'ho perdis!",
+            "desc": "<p>En el nostre primer workshop varem fer una introducció al llenguatge de programació de moda: JavaScript. Sabies que a més JavaScript és <a href='http://tomtunguz.com/javascript/' href='_blank'>el llenguatge de programació de la web</a>?</p><p>En aquest taller aprendrem les bases d'HTML, què és el DOM, i cóm podem interactuar amb el mateix gràcies a JavaScript. També farem una introducció a jQuery, una llibreria de JavaScript creada al 2006 que ha canviat per sempre la programació web. Vols crear la teva primera aplicació web, i veure de quines altres coses pot ser capaç amb JavaScript? No t'ho perdis!</p>",
             "completed": true
         },
         {
             "id": "webdevpart2",
             "title": "Workshop: Programació web (HTML + JavaScript + jQuery), Part II",
-            "desc": "A la primera part del taller de desenvolupament web varem aprendre les bases d'HTML i el DOM, i també varem fer una introducció a CSS i a jQuery, una llibreria de JavaScript creada al 2006 que ha canviat per a sempre la programació web. En aquesta segona part seguirem desenvolupant la nostra primera aplicació web amb jQuery, i carregarem dades dinàmicament mitjançant consultes AJAX a una API pública. No pasa res si et vas perdre la primera part del taller, també ets benvinguda! Et donarem el material necessari i estarem allí per a donar-te un cop de mà en tot moment.",
+            "desc": "<p>A la primera part del taller de desenvolupament web varem aprendre les bases d'HTML i el DOM, i també varem fer una introducció a CSS i a jQuery, una llibreria de JavaScript creada al 2006 que ha canviat per a sempre la programació web.</p><p>En aquesta segona part seguirem desenvolupant la nostra primera aplicació web amb jQuery, i carregarem dades dinàmicament mitjançant consultes AJAX a una API pública.</p><p>No pasa res si et vas perdre la primera part del taller, també ets benvinguda! Et donarem el material necessari i estarem allí per a donar-te un cop de mà en tot moment.</p>",
             "completed": true
         },
         {
             "id": "introtogit",
             "title": "Workshop: Introducció a Git",
-            "desc": "Git és un sistema de control de versions creat per Linus Torvalds que s'utilitza per al desenvolupament de software i d'altres tasques de control de versions. Com a sistema de control de versions distribuït, està dirigit a la velocitat, integritat de les dades, i el suport als fluxes de treball distribuïts i no lineals. Permet a grups de persones treballar en els mateixos documents alhora sense trepitjar-se la feina mutuament. Avui en dia Git és una eina indispensable pels projectes col·laboratius de codi obert. En aquest taller aprendrem la filosofia de treball amb repositoris de codi, cóm funciona Git, i a utilitzar Git des de la consola de comandes.",
+            "desc": "<p><a href='https://ca.wikipedia.org/wiki/Git' target='_blank'>Git</a> és un sistema de control de versions creat per Linus Torvalds que s'utilitza per al desenvolupament de software i d'altres tasques de control de versions. Com a sistema de control de versions distribuït, està dirigit a la velocitat, integritat de les dades, i el suport als fluxes de treball distribuïts i no lineals. Permet a grups de persones treballar en els mateixos documents alhora sense trepitjar-se la feina mutuament.</p><p>Avui en dia Git és una eina indispensable pels projectes col·laboratius de codi obert. En aquest taller aprendrem la filosofia de treball amb repositoris de codi, cóm funciona Git, i a utilitzar Git des de la consola de comandes.</p>",
             "completed": true
         },
         {
             "id": "introtowp",
             "title": "Workshop: Introducció a WordPress",
-            "desc": "WordPress és el sistema de gestió de continguts (CMS per les seves sigles en anglès: Content Management System) més popular i utilitzat del món. S'utilitza tant per a la creació de webs corporatives, com de webs personals o blogs. La seva popularitat radica principalment en la gran quantitat de plugins disponibles, gràcies a la seva enorme comunitat d'usuaris i desenvolupadors. Aquest taller serà una introducció a WordPress: t'acompanyarem en les teves primeres passes i et mostrarem cóm seguir pel teu compte a partir d'aquí.",
+            "desc": "<p><a href='https://ca.wikipedia.org/wiki/WordPress' target='_blank'>WordPress</a> és el sistema de gestió de continguts (CMS per les seves sigles en anglès: Content Management System) més popular i utilitzat del món. S'utilitza tant per a la creació de webs corporatives, com de webs personals o blogs. La seva popularitat radica principalment en la gran quantitat de plugins disponibles, gràcies a la seva enorme comunitat d'usuaris i desenvolupadors.</p><p>Aquest taller serà una introducció a WordPress: t'acompanyarem en les teves primeres passes i et mostrarem cóm seguir pel teu compte a partir d'aquí.</p>",
             "completed": true
         },
         {
             "id": "introtonpm",
             "title": "Workshop: Introducció a npm",
-            "desc": "Node.js ha revolucionat la manera de crear aplicacions JavaScript gràcies, en gran part, a npm, el seu gestor de paquets. npm (Node Package Manager) permet consumir i distribuir mòduls JavaScript a través del seu registre, que avui dia compta amb més de 350.000 paquets. El registre de npm és una col·lecció pública de paquets de codi obert per a Node.js, aplicacions front-end, aplicacions mòbils, robots, routers, i una infinitat de necessitats de la comunitat JavaScript. En aquest taller Kat Marchán, enginyera a npm, Inc., ens ensenyarà què és npm, com utilitzar-lo, com publicar els nostres propis paquets, i com treure-li profit a les altres eines que npm proveeix.",
+            "desc": "<p><a href='https://nodejs.org/es/' target='_blank'>Node.js</a> ha revolucionat la manera de crear aplicacions JavaScript gràcies, en gran part, a npm, el seu gestor de paquets. npm (Node Package Manager) permet consumir i distribuir mòduls JavaScript a través del seu registre, que avui dia compta amb més de 350.000 paquets. El registre de npm és una col·lecció pública de paquets de codi obert per a Node.js, aplicacions frontend, aplicacions mòbils, robots, routers, i una infinitat de necessitats de la comunitat JavaScript.</p><p>En aquest taller Kat Marchán, enginyera a <a href='https://www.npmjs.com' target='_blank'>npm, Inc.</a>, ens ensenyarà què és npm, com utilitzar-lo, com publicar els nostres propis paquets, i com treure-li profit a les altres eines que npm proveeix.</p>",
             "completed": true
         },
         {
-            "id": "htmlgamestalk",
+            "id": "introhtmlgames",
             "title": "Xerrada: Introducció al taller de videojocs en HTML5",
-            "desc": "",
+            "desc": "<p></p>",
             "completed": true
         },
         {
             "id": "htmlgames",
             "title": "Workshop: Videojocs en HTML5",
-            "desc": "",
+            "desc": "<p></p>",
+            "completed": true
+        },
+        {
+            "id": "introtopython",
+            "title": "Workshop: Introducció a Python",
+            "desc": "<p></p>",
+            "completed": true
+        },
+        {
+            "id": "es6typescript",
+            "title": "Workshop: Typescript i ES6",
+            "desc": "<p><a href='https://www.typescriptlang.org/' target='_blank'>Typescript</a>, un llenguatge de programació de codi obert desenvolupat i mantingut per Microsoft, és en realitat un superconjunt d'ES2015/ES6 (ECMAScript 6, la versió más recent de JavaScript), que estén la seva sintaxi. Per a poder ser executat, Typescript ha de ser transpilat JavaScript.</p><p>Segurament hauràs escoltat a més d'un desenvolupador backend burlar-se i/o menysprear JavaScript per raons com no ser un llenguatge tipat, no ser orientat a objectes, etc.</p><p>Typescript fou creat amb el propòsit d'aportar a JavaScript característiques pròpies de llenguatges compilats com Java, C++, o C#, tals com tipatge estàtic, orientació a objectes basada en classes, interfícies, enumeracions, o tipus genèrics, el què permet -entre d'altres coses- una detecció primerenca d'errors en temps de compilació.</p><p>En aquest taller, Paqui Calabria, Senior Frontend Developer a AXA Group Solutions, ens ensenyarà cóm Typescript ens permet desenvolupar aplicacions JavaScript amb característiques del present i del futur.</p>",
+            "completed": true
+        },
+        {
+            "id": "vuejs",
+            "title": "Workshop: Vue.js",
+            "desc": "<p>Si estàs al corrent de les darreres tendències en desenvolupament frontend hauràs sentit a parlar de <a href='https://vuejs.org/' target='_blank'>Vue.js</a>, el framework de JavaScript progressiu.</p><p>Creat per <a href='https://twitter.com/youyuxi' target='_blank'>Evan You</a> després de treballar per a Google desenvolupant AngularJS, Vue.js fou llançat a principis de 2014 i des de llavors <a href='https://trends.google.com/trends/explore?q=vuejs' target='_blank'>la seva popularitat no ha parat de créixer</a>.</p><p>Molts desenvolupadors comparen Vue.js amb Angular i React, i el cert és que reuneix el millor d'ambdós: lleuger, basat en components, poc dogmàtic, interfície d'usuari declarativa, <i>templates HTML</i>, depuració amb <i>hot-reloading</i> i <i>time-travel</i>...</p><p>En aquest taller Núria Soriano, frontend developer a <a href='http://es.tviso.com/' target='_blank'>Tviso</a>, ens farà una introducció pràctica al desenvolupament de SPAs (<i>single-page applications</i>) amb Vue.js.</p>",
+            "completed": true
+        },
+        {
+            "id": "handsones6",
+            "title": "Workshop: Hands on ES6",
+            "desc": "<p><a href='https://www.w3schools.com/js/js_es6.asp' target='_blank'>ES6/ES2015</a> és la 6' edició d0ECMAScript, l'especificació de llenguatge implementada i estandarditzada per JavaScript, publicada al 2015.</p><p>ES6 va portar molts canvis significatius a JavaScript (molts dels quals encara no estàn suportats per tots els navegadors d'internet): algunos interessants, d'altres pràctics, i d'altres genials, tals com funcions fletxa, plantilles de text, destructuració, promeses, i molts més.</p><p>Aquest serà un taller totalment pràctic, basat en katas i dirigit per Paqui Calabria, Senior Frontend Developer a AXA IT.</p>",
+            "completed": true
+        },
+        {
+            "id": "cleancode",
+            "title": "Workshop: Clean code",
+            "desc": "<p></p>",
+            "completed": true
+        },
+        {
+            "id": "react",
+            "title": "Workshop: React",
+            "desc": "<p>Mantenida per Facebook, <a href='https://reactjs.org/' target='_blank'>React</a> és una llibreria de JavaScript de codi obert per a crear interfícies d'usuari. La seva popularitat no ha parat de créixer des del seu llançament al maig de 2013, i actualment l'utilitzen moltes grans empreses com ara Airbnb, Atlassian, Netflix, Whatsapp, ¡o fins i tot Meetup! ¿Tens curiositat per saber-ne més?</p><p>Aquest taller serà una introducció a la màgia de React ✨. Aprendrem conceptes com JSX, Components, props, i maneig de l'estat, juntament amb bones pràctiques.</p><p>La nostra ponent, Marta Bondyra, és Frontend Developer a Typeform i una apassionada de les noves tecnologies. Va començar a treballar en tecnologia com a enginyera de backend a Nokia, però aviat va descobrir que la indústria de les telecomunicacions amb prou feines comporta màgia visual així que es va passar al frontend i aquí s'ha quedat. En el seu temps lliure toca l'ukulele o llegeix llibres. La trobaràs portant una bufanda de Gryffindor, tot i que en el fons sap que realment és una Slytherin.</p>",
             "completed": false
         }
     ]
