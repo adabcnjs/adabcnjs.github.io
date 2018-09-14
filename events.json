@@ -294,12 +294,49 @@
             {
                 "name": "Tutorial",
                 "url": "https://mozdevs.github.io/js-for-gamedev/es/"
+            },
+            {
+                "name": "Video",
+                "url": "https://www.youtube.com/watch?v=7j3U0j_7BrM"
             }
         ]
     },
     "htmlgames": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/intro-html-games-taller/intro-html-games-taller-1.jpg",
+        "pics": [
+            {
+                "url": "img/events/intro-html-games-taller/intro-html-games-taller-2.gif",
+                "cssClass": "col-sm-8"
+            },
+            {
+                "url": "img/events/intro-html-games-taller/intro-html-games-taller-4.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-html-games-taller/intro-html-games-taller-1.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-html-games-taller/intro-html-games-taller-8.jpg",
+                "cssClass": "col-sm-12"
+            },
+            {
+                "url": "img/events/intro-html-games-taller/intro-html-games-taller-3.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-html-games-taller/intro-html-games-taller-5.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-html-games-taller/intro-html-games-taller-7.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-html-games-taller/intro-html-games-taller-6.jpg",
+                "cssClass": "col-sm-12"
+            }
+        ],
         "links": [
             {
                 "name": "Meetup",
@@ -312,12 +349,37 @@
             {
                 "name": "Slides",
                 "url": "https://mozdevs.github.io/html5-games-workshop/en/guides/platformer/initialise-phaser/"
+            },
+            {
+                "name": "Game",
+                "url": "https://mozdevs.github.io/html5-games-workshop/platformer/"
+            },
+            {
+                "name": "Video",
+                "url": "https://www.youtube.com/watch?v=Hd2iwOh8-6k"
             }
         ]
     },
     "introtopython": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/intro-python/intro-python-4.jpg",
+        "pics": [
+            {
+                "url": "img/events/intro-python/intro-python-1.jpg",
+                "cssClass": "col-sm-12"
+            },
+            {
+                "url": "img/events/intro-python/intro-python-3.jpg",
+                "cssClass": "col-sm-8"
+            },
+            {
+                "url": "img/events/intro-python/intro-python-2.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-python/intro-python-4.jpg",
+                "cssClass": "col-sm-4"
+            }
+        ],
         "links": [
             {
                 "name": "Meetup",
@@ -325,17 +387,46 @@
             },
             {
                 "name": "Github",
-                "url": ""
+                "url": "https://github.com/adabcnjs/workshops/tree/master/introduction-to-python"
             },
             {
                 "name": "Slides",
-                "url": ""
+                "url": "http://slides.com/adajs/introduccion-a-python#/"
             }
         ]
     },
     "es6typescript": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/es6-ts/es6-ts-1.jpg",
+        "pics": [
+            {
+                "url": "img/events/es6-ts/es6-ts-1.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/es6-ts/es6-ts-2.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/es6-ts/es6-ts-3.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/es6-ts/es6-ts-4.jpg",
+                "cssClass": "col-sm-8"
+            },
+            {
+                "url": "img/events/es6-ts/es6-ts-5.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/es6-ts/es6-ts-6.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/es6-ts/es6-ts-7.jpg",
+                "cssClass": "col-sm-12"
+            }
+        ],
         "links": [
             {
                 "name": "Meetup",
@@ -343,35 +434,97 @@
             },
             {
                 "name": "Github",
-                "url": ""
+                "url": "https://github.com/adabcnjs/workshops/tree/master/es6-typescript"
             },
             {
-                "name": "Slides",
-                "url": ""
+                "name": "Slides ES6",
+                "url": "http://slides.com/adajs/es6#/"
+            },
+            {
+                "name": "Slides TS",
+                "url": "http://slides.com/paquicalabria/typescript-javascript-makes-sense#/"
             }
         ]
     },
     "vuejs": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/intro-vue/intro-vue-1.jpg",
+        "pics": [
+            {
+                "url": "img/events/intro-vue/intro-vue-6.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-vue/intro-vue-2.jpg",
+                "cssClass": "col-sm-8"
+            },
+            {
+                "url": "img/events/intro-vue/intro-vue-3.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-vue/intro-vue-4.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-vue/intro-vue-5.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-vue/intro-vue-1.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-vue/intro-vue-8.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-vue/intro-vue-7.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/intro-vue/intro-vue-10.jpg",
+                "cssClass": "col-sm-12"
+            }
+        ],
         "links": [
             {
                 "name": "Meetup",
                 "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/241001569/"
             },
             {
-                "name": "Github",
-                "url": ""
-            },
-            {
                 "name": "Slides",
-                "url": ""
+                "url": "https://slides.com/nuria-fl/vuejs-ada#/"
             }
         ]
     },
     "handsones6": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/hands-on-es6/hands-on-es6-6.jpg",
+        "pics": [
+            {
+                "url": "img/events/hands-on-es6/hands-on-es6-1.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/hands-on-es6/hands-on-es6-4.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/hands-on-es6/hands-on-es6-3.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/hands-on-es6/hands-on-es6-2.jpg",
+                "cssClass": "col-sm-8"
+            },
+            {
+                "url": "img/events/hands-on-es6/hands-on-es6-5.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/hands-on-es6/hands-on-es6-6.jpg",
+                "cssClass": "col-sm-4"
+            }
+        ],
         "links": [
             {
                 "name": "Meetup",
@@ -379,17 +532,31 @@
             },
             {
                 "name": "Github",
-                "url": ""
+                "url": "https://github.com/adabcnjs/workshops/tree/master/introduction-to-javascript"
             },
             {
                 "name": "Slides",
-                "url": ""
+                "url": "https://slides.com/adajs/introduction-to-javascript/fullscreen#/"
             }
         ]
     },
     "cleancode": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/clean-code/clean-code-2.jpg",
+        "pics": [
+            {
+                "url": "img/events/clean-code/clean-code-3.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/clean-code/clean-code-2.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/clean-code/clean-code-1.jpg",
+                "cssClass": "col-sm-6"
+            }
+
+        ],
         "links": [
             {
                 "name": "Meetup",
@@ -397,11 +564,11 @@
             },
             {
                 "name": "Github",
-                "url": ""
+                "url": "https://github.com/adabcnjs/workshops/tree/master/clean-code"
             },
             {
                 "name": "Slides",
-                "url": ""
+                "url": "https://slides.com/adajs/clean-code-10#/"
             }
         ]
     },
