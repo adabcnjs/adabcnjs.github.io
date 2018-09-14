@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="JavaScript | Women | Barcelona">
 
-    <title>adaJS Barcelona community</title>
+    <title>AdaJS</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,9 @@
     <!-- Custom CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -161,9 +164,6 @@
             <br/>
             <!-- current members -->
             <div class="row" data-bind="foreach: { data: members().current, as: 'member' }">
-                <!-- ko if: $index() > 0 && $index() % 3 === 0 -->
-                <div class="clearfix"></div>
-                <!-- /ko -->
                 <div data-bind="attr: { 'class': 'member ' + member.class }">
                     <a data-bind="attr: { 'href': member.twitter }" target="_blank" class="portfolio-link" data-toggle="modal">
                         <img data-bind="attr: { 'src': member.picture, 'alt': member.name }"  class="img-responsive img-circle img-centered">

@@ -4,37 +4,37 @@
             "name": "Elena García",
             "twitter": "https://twitter.com/elegarpes",
             "picture": "img/members/elena.jpg",
-            "class": "col-sm-3 col-sm-offset-2"
+            "class": "col-md-2 col-md-offset-3 col-xs-6"
         },
         {
             "name": "Ana Gamito",
             "twitter": "https://twitter.com/tsuna__mi",
             "picture": "img/members/ana.jpg",
-            "class": "col-sm-3"
+            "class": "col-md-2 col-xs-6"
         },
         {
             "name": "Sílvia Mur",
             "twitter": "https://twitter.com/pchiwan",
             "picture": "img/members/silvia.jpg",
-            "class": "col-sm-3"
+            "class": "col-md-2 col-xs-6"
         },        
         {
             "name": "Clara Orti",
             "twitter": "https://twitter.com/ClaraOrtiMoles",
             "picture": "img/members/clara.jpg",
-            "class": "col-sm-3 col-sm-offset-2"
+            "class": "col-md-2 col-md-offset-3 col-xs-6"
         },
         {
             "name": "Carmen Checa",
             "twitter": "https://twitter.com/cmcheca",
             "picture": "img/members/carmen-c.jpg",
-            "class": "col-sm-3"
+            "class": "col-md-2 col-xs-6"
         },
         {
             "name": "Paqui Calabria",
             "twitter": "https://twitter.com/zurribulle",
             "picture": "img/members/paqui.jpg",
-            "class": "col-sm-3"
+            "class": "col-md-2 col-xs-6"
         }
     ],
     "past": [
@@ -42,25 +42,25 @@
             "name": "Alina Mierluș",
             "twitter": "https://twitter.com/alina_mierlus",
             "picture": "img/members/alina.jpg",
-            "class": "col-sm-3 col-sm-offset-2"
+            "class": "col-md-2 col-md-offset-3 col-xs-6"
         },
         {
             "name": "Isabel Cabezas",
             "twitter": "https://twitter.com/isabelcabezasm",
             "picture": "img/members/isabel.jpg",
-            "class": "col-sm-3"
+            "class": "col-md-2 col-xs-6"
         },
         {
             "name": "Laura Ribes",
             "twitter": "https://twitter.com/laMosqui",
             "picture": "img/members/laura.jpg",
-            "class": "col-sm-3"
+            "class": "col-md-2 col-xs-6"
         },
         {
             "name": "Carmen Ansio",
             "twitter": "https://twitter.com/carmenansio",
             "picture": "img/members/carmen-a.jpg",
-            "class": "col-sm-3 col-sm-offset-5"
+            "class": "col-md-2 col-md-offset-5 col-xs-6"
         }
     ]
 }
