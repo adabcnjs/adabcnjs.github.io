@@ -255,7 +255,7 @@
         ]
     },
     "introhtmlgames": {
-        "cover": "img/events/intro-html-games/intro-html-games-6.jpg",
+        "cover": "img/events/intro-html-games/intro-html-games-7.jpg",
         "pics": [
             {
                 "url": "img/events/intro-html-games/intro-html-games-4.jpg",
@@ -270,17 +270,25 @@
                 "cssClass": "col-sm-4"
             },
             {
+                "url": "img/events/intro-html-games/intro-html-games-1.jpg",
+                "cssClass": "col-sm-12"
+            },
+            {
                 "url": "img/events/intro-html-games/intro-html-games-5.jpg",
-                "cssClass": "col-sm-6"
+                "cssClass": "col-sm-4"
             },
             {
                 "url": "img/events/intro-html-games/intro-html-games-6.jpg",
-                "cssClass": "col-sm-6"
+                "cssClass": "col-sm-4"
             },
             {
-                "url": "img/events/intro-html-games/intro-html-games-1.jpg",
+                "url": "img/events/intro-html-games/intro-html-games-8.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/intro-html-games/intro-html-games-7.jpg",
                 "cssClass": "col-sm-12"
-            }
+            }            
         ],
         "links": [
             {
@@ -302,38 +310,38 @@
         ]
     },
     "htmlgames": {
-        "cover": "img/events/intro-html-games-taller/intro-html-games-taller-1.jpg",
+        "cover": "img/events/html-games/html-games-1.jpg",
         "pics": [
             {
-                "url": "img/events/intro-html-games-taller/intro-html-games-taller-2.gif",
+                "url": "img/events/html-games/html-games-2.gif",
                 "cssClass": "col-sm-8"
             },
             {
-                "url": "img/events/intro-html-games-taller/intro-html-games-taller-4.jpg",
+                "url": "img/events/html-games/html-games-4.jpg",
                 "cssClass": "col-sm-4"
             },
             {
-                "url": "img/events/intro-html-games-taller/intro-html-games-taller-1.jpg",
+                "url": "img/events/html-games/html-games-1.jpg",
                 "cssClass": "col-sm-4"
             },
             {
-                "url": "img/events/intro-html-games-taller/intro-html-games-taller-8.jpg",
+                "url": "img/events/html-games/html-games-8.jpg",
                 "cssClass": "col-sm-12"
             },
             {
-                "url": "img/events/intro-html-games-taller/intro-html-games-taller-3.jpg",
+                "url": "img/events/html-games/html-games-3.jpg",
                 "cssClass": "col-sm-4"
             },
             {
-                "url": "img/events/intro-html-games-taller/intro-html-games-taller-5.jpg",
+                "url": "img/events/html-games/html-games-5.jpg",
                 "cssClass": "col-sm-4"
             },
             {
-                "url": "img/events/intro-html-games-taller/intro-html-games-taller-7.jpg",
+                "url": "img/events/html-games/html-games-7.jpg",
                 "cssClass": "col-sm-4"
             },
             {
-                "url": "img/events/intro-html-games-taller/intro-html-games-taller-6.jpg",
+                "url": "img/events/html-games/html-games-6.jpg",
                 "cssClass": "col-sm-12"
             }
         ],
