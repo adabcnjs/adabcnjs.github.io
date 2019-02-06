@@ -18,7 +18,7 @@ a:focus,
 a:active,
 a.active {
   outline: 0;
-  color: #5EA0B0;
+  color: white;
 }
 h1,
 h2,
@@ -115,6 +115,10 @@ header .intro-text .skills {
     -moz-transition: all .3s;
     transition: all .3s;
   }
+  .navbar-fixed-top .navbar-brand:hover,
+  .navbar-fixed-top .navbar-brand:focus {
+    color: #5EA0B0;
+  }
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0;
   }
@@ -133,8 +137,9 @@ header .intro-text .skills {
 .navbar .navbar-nav {
   letter-spacing: 1px;
 }
-.navbar .navbar-nav li a:focus {
+.navbar .navbar-nav li a:focus, .navbar .navbar-nav li a:active {
   outline: 0;
+  color: #5EA0B0;
 }
 .navbar-default,
 .navbar-inverse {
@@ -178,6 +183,7 @@ section.success {
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s;
+  mix-blend-mode: screen;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;

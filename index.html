@@ -60,6 +60,9 @@
                         <a href="#portfolio" data-bind="text: res().menuEvents"></a>
                     </li>
                     <li class="page-scroll">
+                        <a href="#code" data-bind="text: res().menuCodeOfConduct"></a>
+                    </li>
+                    <li class="page-scroll">
                         <a href="#about" data-bind="text: res().menuAboutUs"></a>
                     </li>
                     <li class="page-scroll">
@@ -69,13 +72,9 @@
                         <a href="#" data-bind="click: function () { changeLang('es'); }">
                             <img class="img-responsive" src="img/cas.png" />
                         </a>
-                    </li>
-                    <li class="change-lang">
                         <a href="#" data-bind="click: function () { changeLang('ca'); }">
                             <img class="img-responsive" src="img/cat.png" />
                         </a>
-                    </li>
-                    <li class="change-lang">
                         <a href="#" data-bind="click: function () { changeLang('en'); }">
                             <img class="img-responsive" src="img/eng.png" />
                         </a>
@@ -105,7 +104,6 @@
                         </p>
                         <p data-bind="html: res().introPart2"></p>
                         <p data-bind="text: res().introPart3"></p>
-
                     </div>
                 </div>
             </div>
@@ -147,13 +145,29 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
+    <!-- Code of Conduct Section -->
+    <section class="success" id="code">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 data-bind="text: res().menuCodeOfConduct"></h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div data-bind="html: res().codeOfConduct"></div>
+                </div>
+            </div>
+    </section>
+
+    <!-- About us Section -->
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 data-bind="text: res().menuAboutUs"></h2>
-                    <hr class="star-light">
+                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
@@ -196,23 +210,23 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section class="success" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 data-bind="text: res().titleContact"></h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div id="mc_embed_signup" class="col-lg-8 col-lg-offset-2">
                     <p class="text-center">
                         <span data-bind="text: res().contactText"></span>&nbsp;
-                        <a href="mailto:barcelona@adajs.com">barcelona@adajs.com</a>.
+                        <a class="email" href="mailto:barcelona@adajs.com">barcelona@adajs.com</a>.
                     </p>
                 </div>
             </div>
-    </section>
+    </section>    
 
     <!-- Footer -->
     <footer class="text-center">
@@ -280,7 +294,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 col-lg-offset-1">
-                            <div class="modal-body">
+                            <div class="modal-body event-modal">
                                 <h2 data-bind="text: event.title"></h2>
                                 <hr class="star-primary">
                                 <div class="col-sm-12" data-bind="if: !!event.desc">

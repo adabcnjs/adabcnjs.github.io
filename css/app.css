@@ -49,6 +49,11 @@ body {
 .navbar-default {
   background-color: #9BDAE1;
 }
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  background-color: #2B3E50;
+}
 .navbar-default .navbar-nav li a:hover {
   color: #5EA0B0;
 }
@@ -61,6 +66,9 @@ body {
 }
 .navbar-default .navbar-nav .change-lang a {
   background-color: transparent;
+  float: left;
+}
+.navbar-default .navbar-nav .change-lang a:not(:first-child) {
   padding-left: 5px;
 }
 .navbar-default .navbar-nav .change-lang a:hover,
@@ -75,6 +83,20 @@ body {
 .navbar-default .navbar-nav .change-lang a img:active {
   border-radius: 100px !important;
 }
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  border-color: #2B3E50;
+  background-color: #2B3E50;
+}
+.email {
+  text-decoration: underline;
+}
+#code ul {
+  list-style-type: disc;
+  font-size: 18px;
+}
 #about .portfolio-link img {
   width: 100px;
 }
@@ -85,6 +107,10 @@ body {
   font-weight: bold;
   margin-top: 10px;
   min-height: 42px;
+}
+.event-modal a {
+  color: inherit;
+  text-decoration: underline;
 }
 .bcnjs img {
   width: 20%;
