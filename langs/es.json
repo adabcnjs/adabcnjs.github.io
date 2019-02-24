@@ -106,6 +106,24 @@
             "id": "react",
             "title": "Workshop: React",
             "desc": "<p>Mantenida por Facebook, <a href='https://reactjs.org/' target='_blank'>React</a> es una librería de JavaScript de código abierto para crear interfaces de usuario. Su popularidad no ha dejado de crecer desde su lanzamiento en mayo de 2013, y actualmente la usan muchas grandes empresas tales como Airbnb, Atlassian, Netflix, Whatsapp, ¡o incluso Meetup! ¿Tienes curiosidad por saber más?</p><p>Este taller será una introducción a la magia de React ✨. Aprenderemos conceptos como JSX, Componentes, props, y manejo de estado, junto con buenas prácticas.</p><p>Nuestra ponente, Marta Bondyra, es Frontend Developer en Typeform y una apasionada de las nuevas tecnologías. Empezó a trabajar en tecnología como ingeniera de backend en Nokia, pero pronto descubrió que la industria de las telecomunicaciones apenas conlleva magia visual así que se pasó al frontend y ahí se ha quedado. En su tiempo libre toca el ukulele o lee libros. La puedes encontrar llevando una bufanda de Gryffindor, aunque en su corazón sabe que realmente es una Slytherin.</p>",
+            "completed": true
+        },
+        {
+            "id": "automatedtesting",
+            "title": "Talk: Tests automatizados en el mundo real: Introducción y consejos",
+            "desc": "<p>Los tests, en todas sus formas (pruebas unitarias, e2e, manuales...) son un requisito obligatorio para un producto de calidad. Las pruebas automatizadas pueden ahorrar horas de depuración, pero aún muchas personas se sienten perdidas cuando comienzan a hacerlo, o incluso después de meses de experiencia.</p><p>En esta charla, revisaremos los conceptos básicos de las pruebas automatizadas y hablaremos sobre la metodología y las buenas prácticas desde un punto de vista pragmático.</p>",
+            "completed": true
+        },
+        {
+            "id": "visualthinking",
+            "title": "Talk: Visual Thinking para developers",
+            "desc": "<p><em>'En las reuniones, invertimos más tiempo en comprender el problema que en buscar soluciones'</em></p><p><em>'Nadie lee la documentación que tenemos (vamos... ni yo leo mi propia documentación)'</em></p><p><em>'Tengo una idea clara pero es difícil de explicar'</em></p><p>'¿Alguna de estas frases te parece familiar? ¡Únete a nosotras en este encuentro! 💪 Vamos a compartir diferentes formas de aplicar Visual Thinking en el día a día, que te ayudarán en estas situaciones. No solo estamos hablando de bocetos y dibujos, ¡así que 'no sé cómo dibujar' no es una excusa! 😉</p>",
+            "completed": true
+        },
+        {
+            "id": "smartcities",
+            "title": "Talk: Smart Cities",
+            "desc": "<p>Las Smart Cities están surgiendo a nuestro alrededor, cada vez están más de moda, pero, ¿sabemos qué son realmente? ¿Sabemos cómo participar y colaborar en su desarrollo? ¿Qué riesgos podrían causar?</p><p>En esta charla diseccionaremos una ciudad inteligente y conoceremos a sus habitantes: los <em>homo smartiensis.</em></p>",
             "completed": false
         }
     ]
