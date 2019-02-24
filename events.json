@@ -48,6 +48,10 @@
             {
                 "name": "Github",
                 "url": "https://github.com/adabcnjs/workshops/tree/master/javascript-101"
+            },
+            {
+                "name": "Slides",
+                "url": "http://slides.com/adajs/jsforbeginners#/"
             }
         ]
     },
@@ -98,7 +102,15 @@
             },
             {
                 "name": "CriticadaJS",
-                "url": "http://ada.barcelonajs.org/Workshops/criticadaJS/"
+                "url": "http://adajs.cat/Workshops/criticadaJS/"
+            },
+            {
+                "name": "Slides",
+                "url": "http://slides.com/adajs/jquery-part-1#/"
+            },
+            {
+                "name": "Slides",
+                "url": "http://slides.com/adajs/workshop-programacion-web-html-javascript-jquery-parte-i#/"
             }
         ]
     },
@@ -133,7 +145,11 @@
             },
             {
                 "name": "CriticadaJS",
-                "url": "http://ada.barcelonajs.org/Workshops/criticadaJS/"
+                "url": "http://adajs.cat/Workshops/criticadaJS/"
+            },
+            {
+                "name": "Slides",
+                "url": "http://slides.com/adajs/workshop-programacion-web-html-javascript-jquery-parte-ii#/"
             }
         ]
     },
@@ -169,6 +185,10 @@
             {
                 "name": "Github",
                 "url": "https://github.com/adabcnjs/workshops/tree/master/introduction-to-git/"
+            },
+            {
+                "name": "Slides",
+                "url": "http://slides.com/adajs/git-workshop#/"
             }
         ]
     },
@@ -212,6 +232,10 @@
             {
                 "name": "CDMon Setup",
                 "url": "https://docs.google.com/document/d/1qDoEUNs-BRo395T0VtpZvJUmne3neFStusJ0V_v-ufo/"
+            },
+            {
+                "name": "Slides",
+                "url": "http://slides.com/adajs/wordpress-workshop#/"
             }
         ]
     },
@@ -251,6 +275,10 @@
             {
                 "name": "Github",
                 "url": "https://github.com/adabcnjs/workshops/tree/master/introduction-to-npm/"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/workshopper/how-to-npm#readme"
             }
         ]
     },
@@ -545,6 +573,10 @@
             {
                 "name": "Slides",
                 "url": "https://slides.com/adajs/introduction-to-javascript/fullscreen#/"
+            },
+            {
+                "name": "Exercises",
+                "url": "https://github.com/adabcnjs/workshops/blob/master/introduction-to-javascript/exercises.md"
             }
         ]
     },
@@ -590,11 +622,49 @@
             },
             {
                 "name": "Github",
-                "url": ""
+                "url": "https://github.com/mbondyra/ada-react-workshop"
             },
             {
                 "name": "Slides",
-                "url": ""
+                "url": "https://docs.google.com/presentation/d/1bkutDMNNs3Y99x63tkLojRH4z2bs_oTJpbkTv2o_vlg/edit#slide=id.g30fa71489c_0_0"
+            }
+        ]
+    },
+    "automatedtesting": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/254800320/"
+            },
+            {
+                "name": "Slides",
+                "url": "https://slides.com/paquicalabria/automated-testing-ada-js/#/"
+            }
+        ]
+    },
+    "visualthinking": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/256380556/"
+            }
+        ]
+    },
+    "smartcities": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/259087089/"
+            },
+            {
+                "name": "Slides",
+                "url": "https://slides.com/adajs/smart-cities#/"
             }
         ]
     }
