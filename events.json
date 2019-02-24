@@ -613,8 +613,41 @@
         ]
     },
     "react": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/react/react-0.jpg",
+        "pics": [
+            {
+                "url": "img/events/react/react-a.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/react/react-b.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/react/react-c.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/react/react-d.jpg",
+                "cssClass": "col-sm-8"
+            },
+            {
+                "url": "img/events/react/react-e.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/react/react-f.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/react/react-g.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/react/react-h.jpg",
+                "cssClass": "col-sm-4"
+            }
+        ],
         "links": [
             {
                 "name": "Meetup",
@@ -631,8 +664,41 @@
         ]
     },
     "automatedtesting": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/automated-testing/automated-testing.jpg",
+        "pics": [            
+            {
+            "url": "img/events/automated-testing/automated-testing-graph-recording.jpg",
+            "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/automated-testing/automated-testing0.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/automated-testing/automated-testing1.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/automated-testing/automated-testing2.jpg",
+                "cssClass": "col-sm-8"
+            },
+            {
+                "url": "img/events/automated-testing/automated-testing3.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/automated-testing/automated-testing4.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/automated-testing/automated-testing5.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/automated-testing/automated-testing6.jpg",
+                "cssClass": "col-sm-4"
+            }
+        ],
         "links": [
             {
                 "name": "Meetup",
@@ -645,8 +711,25 @@
         ]
     },
     "visualthinking": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/visual-thinking/visual-thinking-0.jpg",
+        "pics": [
+            {
+                "url": "img/events/visual-thinking/visual-thinking-1.jpg",
+                "cssClass": "col-sm-8"
+            },
+            {
+                "url": "img/events/visual-thinking/visual-thinking-4.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/visual-thinking/visual-thinking-3.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/visual-thinking/visual-thinking-2.jpg",
+                "cssClass": "col-sm-4"
+            }
+        ],
         "links": [
             {
                 "name": "Meetup",
