@@ -1,5 +1,5 @@
 {
-    "title": "AdaJS by BarcelonaJS",
+    "title": "AdaJS",
     "menuEvents": "Events",
     "menuAboutUs": "About us",
     "menuContact": "Contact",
@@ -106,6 +106,24 @@
             "id": "react",
             "title": "Workshop: React",
             "desc": "<p>Maintained by Facebook, <a href='https://reactjs.org/' target='_blank'>React</a> is an open source JavaScript library for building user interfaces. Its popularity hasn't stopped rising since its release back in May 2013, and it's currently being used by many big companies such as Airbnb, Atlassian, Netflix, Whatsapp, and Meetup itself! Curious to know what's the buzz?</p><p>This workshop will be an introduction to the magic of React ✨. We'll learn concepts such as JSX, Components, props, and state management, along with good practices.</p><p>Our speaker, Marta Bondyra, is a Frontend Developer at Typeform, passionate about new technologies. She started working in tech as a backend engineer at Nokia, but soon realized that telecommunications industry doesn't involve a lot of frontend magic so she moved to frontend and stayed for good. In her free time she plays ukulele or reads books. You can meet her wearing a Gryffindor scarf, although in her heart she knows she's a Slytherin.</p>",
+            "completed": true
+        },
+        {
+            "id": "automatedtesting",
+            "title": "Talk: Automated testing in the real world: Introduction and tips",
+            "desc": "<p>Testing, in all its forms (unit tests, end to end, manual…) is a mandatory requisite for a quality product, and automated tests can save hours of debugging but still a lot of people feel lost when starting to do it, or even after months of experience.</p><p>In this talk we will review the basic concepts of automated testing, and talk about methodology and good practices from a pragmatic point of view.</p>",
+            "completed": true
+        },
+        {
+            "id": "visualthinking",
+            "title": "Talk: Visual Thinking for developers",
+            "desc": "<p><em>'On meetings, we invest more time understanding the problem than searching for solutions'.</em></p><p><em>'Nobody reads the documentation we have (come on... neither I read my own documentation)'</em></p><p><em>'I have a clear idea but It's difficult to explain'</em></p><p>Do any of these phrases looks familiar? Join us in this meetup! 💪 we're going to share different ways to apply Visual Thinking in the day by day, which are going to help you in this situations. We are not only talking about sketchs and draws, so 'I don't know how to draw' is not an excuse! 😉</p>",
+            "completed": true
+        },
+        {
+            "id": "smartcities",
+            "title": "Talk: Smart Cities",
+            "desc": "<p>Smart Cities are emerging around us, they are becoming more fashionable, but do we know what they really are? Do we know how to participate and collaborate in its development? What risks could they cause?</p><p>In this talk we will dissect an intelligent city and get to know its inhabitants: the <em>homo smartiensis.</em></p>",
             "completed": false
         }
     ]

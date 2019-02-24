@@ -8,7 +8,7 @@ h6 {
   text-transform: none;
 }
 body {
-  font-family: Lato;
+  font-family: Ubuntu;
 }
 .gallery a img:hover,
 .navbar-nav a img:hover,
@@ -52,7 +52,7 @@ body {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-  background-color: #2B3E50;
+  background-color: rgba(255,255,255,0.35);
 }
 .navbar-default .navbar-nav li a:hover {
   color: #5EA0B0;
@@ -90,6 +90,9 @@ body {
   border-color: #2B3E50;
   background-color: #2B3E50;
 }
+.navbar-default .navbar-brand:hover{
+  color: #5EA0B0;
+}
 .email {
   text-decoration: underline;
 }
@@ -117,6 +120,7 @@ body {
 }
 .meetup-logo {
   width: 30%;
+  margin-top: 15px;
 }
 .coming-soon {
   position: absolute;
@@ -137,7 +141,7 @@ body {
   border: 2px dashed crimson;
   padding: 5px 10px;
 }
-.justify {
+.justify {+
   text-align: justify;
 }
 .center {
@@ -145,4 +149,18 @@ body {
 }
 .portfolio-link .img-thumbnail {
   max-height: 207px;
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    margin-top: -60px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin-top: 0;
+  }
 }

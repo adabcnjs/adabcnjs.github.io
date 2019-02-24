@@ -179,7 +179,7 @@
             <!-- current members -->
             <div class="row" data-bind="foreach: { data: members().current, as: 'member' }">
                 <div data-bind="attr: { 'class': 'member ' + member.class }">
-                    <a data-bind="attr: { 'href': member.twitter }" target="_blank" class="portfolio-link" data-toggle="modal">
+                    <a data-bind="attr: { 'href': member.twitter }" target="_blank" class="portfolio-link">
                         <img data-bind="attr: { 'src': member.picture, 'alt': member.name }"  class="img-responsive img-circle img-centered">
                     </a>
                     <div class="col-sm-12 text-center">
@@ -263,7 +263,7 @@
                             <span data-bind="text: res().joinMeetup"></span>
                             <br/><br/>
                             <a href="http://www.meetup.com/AdaBcnJS/?_locale=es-ES" target="_blank">
-                                <img class="meetup-logo" src="img/meetup_logo.png" alt="Meetup"/>
+                                <img class="meetup-logo" src="img/logo-meetup.svg" alt="Meetup"/>
                             </a>
                         </h3>
                     </div>

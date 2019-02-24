@@ -1,5 +1,5 @@
 {
-    "title": "AdaJS by BarcelonaJS",
+    "title": "AdaJS",
     "menuEvents": "Esdeveniments",
     "menuAboutUs": "Nosaltres",
     "menuContact": "Contacte",
@@ -99,13 +99,31 @@
         {
             "id": "cleancode",
             "title": "Workshop: Clean code",
-            "desc": "<p></p>",
+            "desc": "<p>Tot el món vol programar, i qualsevol pot programar... però ¿pot qualsevol entendre el nostre codi? Cada dia més i més empreses comencen a buscar desenvolupadors que segueixen bones pràctiques, i escriure codi net és una de les bones pràctiques que hem de seguir.</p><p><i>\"Be smart. Be clean. Be simple. Ship! And keep a small roll of duct tape at the ready, and don't be afraid to use it.\"</i> - Uncle Bob (Robert C. Martin)</p><p><i>\"Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\"</i> - Martin Fowler</p>",
             "completed": true
         },
         {
             "id": "react",
             "title": "Workshop: React",
             "desc": "<p>Mantenida per Facebook, <a href='https://reactjs.org/' target='_blank'>React</a> és una llibreria de JavaScript de codi obert per a crear interfícies d'usuari. La seva popularitat no ha parat de créixer des del seu llançament al maig de 2013, i actualment l'utilitzen moltes grans empreses com ara Airbnb, Atlassian, Netflix, Whatsapp, ¡o fins i tot Meetup! ¿Tens curiositat per saber-ne més?</p><p>Aquest taller serà una introducció a la màgia de React ✨. Aprendrem conceptes com JSX, Components, props, i maneig de l'estat, juntament amb bones pràctiques.</p><p>La nostra ponent, Marta Bondyra, és Frontend Developer a Typeform i una apassionada de les noves tecnologies. Va començar a treballar en tecnologia com a enginyera de backend a Nokia, però aviat va descobrir que la indústria de les telecomunicacions amb prou feines comporta màgia visual així que es va passar al frontend i aquí s'ha quedat. En el seu temps lliure toca l'ukulele o llegeix llibres. La trobaràs portant una bufanda de Gryffindor, tot i que en el fons sap que realment és una Slytherin.</p>",
+            "completed": true
+        },
+        {
+            "id": "automatedtesting",
+            "title": "Talk: Test automatitzat en el món real: Introducció i consells",
+            "desc": "<p>Els tets, en totes les seves formes (proves unitàries, e2e, manuals...) són un requisit obligatori per a un producte de qualitat. Les proves automatitzades poden estalviar hores de depuració, però moltes persones se senten perdudes quan comencen a fer-ho, o fins i tot després de mesos d'experiència.</p><p>En aquesta xerrada revisarem els conceptes bàsics de les proves automatitzades, i parlarem de metdodologia i bones pràctiques des d'un punt de vista pragmàtic. </p>",
+            "completed": true
+        },
+        {
+            "id": "visualthinking",
+            "title": "Talk: Visual Thinking per a developers",
+            "desc": "<p><em>'En reunions, invertim més temps entenent el problema que buscar solucions'</em></p><p><em>'Ningú llegeix la documentació que tenim (ni tan de bó jo he llegit la meva pròpia documentació)'</em></p><p><em>'Tinc una idea clara, però és difícil d'explicar'</em></p><p>Alguna d'aquestes frases us sembla familiar? Uneix-te a nosaltres en aquesta trobada! 💪 anem a compartir diferents formes d'aplicar el <em>visual thinking</em> en el dia a dia, que us ajudaran en aquestes situacions ✏. No només parlem d'esbossos i sortejos, així que 'no sé dibuixar' no és una excusa. 😉</p>",
+            "completed": true
+        },
+        {
+            "id": "smartcities",
+            "title": "Talk: Smart Cities",
+            "desc": "<p>Les Smart Cities estan sorgint al nostre voltant, cada vegada estan més de moda, però, ¿sabem què són realment? Sabem com participar i col·laborar en el seu desenvolupament? Quins riscos podrien causar?</p><p>En aquesta xerrada dissecció una ciutat intel·ligent i coneixerem als seus habitants: els <em>homo smartiensis.</em></p>",
             "completed": false
         }
     ]
