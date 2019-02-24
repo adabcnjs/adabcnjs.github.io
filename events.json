@@ -668,11 +668,7 @@
         "pics": [            
             {
             "url": "img/events/automated-testing/automated-testing-graph-recording.jpg",
-            "cssClass": "col-sm-4"
-            },
-            {
-                "url": "img/events/automated-testing/automated-testing0.jpg",
-                "cssClass": "col-sm-4"
+            "cssClass": "col-sm-8"
             },
             {
                 "url": "img/events/automated-testing/automated-testing1.jpg",
@@ -680,11 +676,11 @@
             },
             {
                 "url": "img/events/automated-testing/automated-testing2.jpg",
-                "cssClass": "col-sm-8"
+                "cssClass": "col-sm-4"
             },
             {
-                "url": "img/events/automated-testing/automated-testing3.jpg",
-                "cssClass": "col-sm-4"
+                "url": "img/events/automated-testing/automated-testing0.jpg",
+                "cssClass": "col-sm-8"
             },
             {
                 "url": "img/events/automated-testing/automated-testing4.jpg",
@@ -692,10 +688,10 @@
             },
             {
                 "url": "img/events/automated-testing/automated-testing5.jpg",
-                "cssClass": "col-sm-4"
+                "cssClass": "col-sm-8"
             },
             {
-                "url": "img/events/automated-testing/automated-testing6.jpg",
+                "url": "img/events/automated-testing/automated-testing3.jpg",
                 "cssClass": "col-sm-4"
             }
         ],
