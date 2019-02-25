@@ -608,7 +608,7 @@
             },
             {
                 "name": "Slides",
-                "url": "https://slides.com/adajs/clean-code-10#/"
+                "url": "https://slides.com/adajs/clean-code-10#"
             }
         ]
     },
@@ -659,7 +659,7 @@
             },
             {
                 "name": "Slides",
-                "url": "https://docs.google.com/presentation/d/1bkutDMNNs3Y99x63tkLojRH4z2bs_oTJpbkTv2o_vlg/edit#slide=id.g30fa71489c_0_0"
+                "url": "Workshops/react/React-Workshop.pdf"
             }
         ]
     },
@@ -730,6 +730,10 @@
             {
                 "name": "Meetup",
                 "url": "https://www.meetup.com/es-ES/AdaBcnJS/events/256380556/"
+            },
+            {
+                "name": "Slides",
+                "url": "Workshops/visualThinking/VisualThinkingInAXA.pdf"
             }
         ]
     },
