@@ -48,6 +48,7 @@ body {
 }
 .navbar-default {
   background-color: #9BDAE1;
+  background: linear-gradient(160deg,#02ccba,#a056a0);
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
