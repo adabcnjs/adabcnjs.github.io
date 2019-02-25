@@ -29,13 +29,13 @@ body {
   }
 }
 .ada {
-  font-family: Comfortaa!important;
-  text-transform: lowercase!important;
-  font-weight: 300!important;
+  font-family: Comfortaa !important;
+  text-transform: lowercase !important;
+  font-weight: 300 !important;
 }
 .ada strong {
-  text-transform: uppercase!important;
-  font-weight: 700!important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
 }
 .ada-intro {
   font-size: 30px;
@@ -44,7 +44,7 @@ body {
   width: 80%;
 }
 .navbar {
-  font-family: Lato;
+  font-family: Ubuntu;
 }
 .navbar-default {
   background-color: #9BDAE1;
