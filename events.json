@@ -333,7 +333,7 @@
             },
             {
                 "name": "Video",
-                "url": "https://www.youtube.com/watch?v=7j3U0j_7BrM"
+                "url": "https://youtu.be/7j3U0j_7BrM"
             }
         ]
     },
@@ -392,7 +392,7 @@
             },
             {
                 "name": "Video",
-                "url": "https://www.youtube.com/watch?v=Hd2iwOh8-6k"
+                "url": "https://youtu.be/Hd2iwOh8-6k"
             }
         ]
     },
@@ -734,12 +734,49 @@
             {
                 "name": "Slides",
                 "url": "Workshops/visualThinking/VisualThinkingInAXA.pdf"
+            },
+            {
+                "name": "Video",
+                "url": "https://youtu.be/2I6kuBstunA"
             }
         ]
     },
     "smartcities": {
-        "cover": "",
-        "pics": [],
+        "cover": "img/events/smartcities/smartcities4.jpg",
+        "pics": [
+            {
+                "url": "img/events/smartcities/smartcities1.jpg",
+                "cssClass": "col-sm-8"
+            },
+            {
+                "url": "img/events/smartcities/smartcities6.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/smartcities/smartcities3.jpg",
+                "cssClass": "col-sm-12"
+            },
+            {
+                "url": "img/events/smartcities/smartcities2.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/smartcities/smartcities7.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/smartcities/smartcities5.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/smartcities/smartcities10.jpg",
+                "cssClass": "col-sm-8"
+            },
+            {
+                "url": "img/events/smartcities/smartcities0.jpg",
+                "cssClass": "col-sm-4"
+            }
+        ],
         "links": [
             {
                 "name": "Meetup",

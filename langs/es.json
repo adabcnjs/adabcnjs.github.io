@@ -124,7 +124,7 @@
             "id": "smartcities",
             "title": "Talk: Smart Cities",
             "desc": "<p>Las Smart Cities están surgiendo a nuestro alrededor, cada vez están más de moda, pero, ¿sabemos qué son realmente? ¿Sabemos cómo participar y colaborar en su desarrollo? ¿Qué riesgos podrían causar?</p><p>En esta charla diseccionaremos una ciudad inteligente y conoceremos a sus habitantes: los <em>homo smartiensis.</em></p>",
-            "completed": false
+            "completed": true
         }
     ]
 }

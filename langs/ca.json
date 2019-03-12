@@ -124,7 +124,7 @@
             "id": "smartcities",
             "title": "Talk: Smart Cities",
             "desc": "<p>Les Smart Cities estan sorgint al nostre voltant, cada vegada estan més de moda, però, ¿sabem què són realment? Sabem com participar i col·laborar en el seu desenvolupament? Quins riscos podrien causar?</p><p>En aquesta xerrada dissecció una ciutat intel·ligent i coneixerem als seus habitants: els <em>homo smartiensis.</em></p>",
-            "completed": false
+            "completed": true
         }
     ]
 }

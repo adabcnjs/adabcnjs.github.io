@@ -124,7 +124,7 @@
             "id": "smartcities",
             "title": "Talk: Smart Cities",
             "desc": "<p>Smart Cities are emerging around us, they are becoming more fashionable, but do we know what they really are? Do we know how to participate and collaborate in its development? What risks could they cause?</p><p>In this talk we will dissect an intelligent city and get to know its inhabitants: the <em>homo smartiensis.</em></p>",
-            "completed": false
+            "completed": true
         }
     ]
 }
